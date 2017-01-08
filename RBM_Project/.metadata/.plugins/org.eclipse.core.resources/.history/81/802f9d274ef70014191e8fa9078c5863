@@ -1,0 +1,41 @@
+import time
+import numpy
+from Datasets import getDataset
+from Machines.RBM import RBM
+from pylab import *
+from Datasets import AleixDatasetGeneration as dg
+NUM_EPOCHS = 7500
+VISIBLES = 9
+HIDDEN = 30
+PROBLEM = "BarsAndStripes"
+
+learning_rate = 0.01
+momentum_rate = 0.
+sigma = 1.
+
+dataset, VISIBLES = dg.load_data("bars_stripes", {'num_rows':int(numpy.sqrt(VISIBLES)), 'num_cols':int(numpy.sqrt(VISIBLES))}, 1., 0)
+
+
+def execute(dataset, probabilities, machine_type, k, learning_rate, momentum_rate, sigma):
+    t1 = time.time()
+    machine = RBM(HIDDEN,VISIBLES, dataset, probabilities, learning_rate, momentum_rate, sigma, k = k, type = machine_type)
+    learning_algorithm = machine.trainStep    
+    iters = 0
+    monit_likelihood = []
+    while iters < NUM_EPOCHS:
+        iters += 1
+        learning_algorithm()
+        if iters % 20 == 0:
+            monit_likelihood.append(machine.compute_KL())
+    print "TEST_FINISHED in %.1f seconds" % (time.time()-t1)
+    return monit_likelihood
+
+figure()
+for i in range(2):
+    likelihood_proposal_1 = execute(dataset[0], dataset[1], machine_type = "equal_weights", k = 1, learning_rate=learning_rate, momentum_rate = momentum_rate, sigma = sigma);   plot(likelihood_proposal_1, 'r', label = "CD-1 Equal weights")
+#likelihood_proposal_3 = execute(dataset[0], dataset[1], machine_type = "exact", k = 1, learning_rate=learning_rate, momentum_rate = momentum_rate, sigma = sigma);           plot(likelihood_proposal_3, label = "Exact")
+for i in range(2):
+    likelihood_proposal_4 = execute(dataset[0], dataset[1], machine_type = "model_weights", k = 1, learning_rate=learning_rate, momentum_rate = momentum_rate, sigma = sigma);   plot(likelihood_proposal_4, 'g', label = "CD-1 Model weights")
+legend()
+show()
+

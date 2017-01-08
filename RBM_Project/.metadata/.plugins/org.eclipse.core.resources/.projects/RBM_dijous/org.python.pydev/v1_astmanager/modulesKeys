@@ -1,0 +1,14 @@
+MODULES_MANAGER_V2
+Datasets.__init__|/home/jose/Documents/RBM_Project/RBM_dijous/Datasets/__init__.py
+Datasets.barsAndStripesUtils|/home/jose/Documents/RBM_Project/RBM_dijous/Datasets/barsAndStripesUtils.py
+Datasets.bitSwap|/home/jose/Documents/RBM_Project/RBM_dijous/Datasets/bitSwap.py
+Datasets.parity|/home/jose/Documents/RBM_Project/RBM_dijous/Datasets/parity.py
+Machines.Jose_RBM|/home/jose/Documents/RBM_Project/RBM_dijous/Machines/Jose_RBM.py
+Machines.Jose_RBM_2|/home/jose/Documents/RBM_Project/RBM_dijous/Machines/Jose_RBM_2.py
+Machines.Jose_RBM_3|/home/jose/Documents/RBM_Project/RBM_dijous/Machines/Jose_RBM_3.py
+Machines.__init__|/home/jose/Documents/RBM_Project/RBM_dijous/Machines/__init__.py
+Utils.CommonUtils|/home/jose/Documents/RBM_Project/RBM_dijous/Utils/CommonUtils.py
+Utils.__init__|/home/jose/Documents/RBM_Project/RBM_dijous/Utils/__init__.py
+dataset_generation|/home/jose/Documents/RBM_Project/RBM_dijous/dataset_generation.py
+example_Aleix|/home/jose/Documents/RBM_Project/RBM_dijous/example_Aleix.py
+execute_2|/home/jose/Documents/RBM_Project/RBM_dijous/execute_2.py

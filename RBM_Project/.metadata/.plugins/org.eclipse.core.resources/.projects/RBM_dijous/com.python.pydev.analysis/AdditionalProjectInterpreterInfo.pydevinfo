@@ -1,0 +1,91 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/jose/Documents/RBM_Project/.metadata/.plugins/org.eclipse.core.resources/.projects/RBM_dijous/com.python.pydev.analysis/v2_indexcache
+Datasets.bitSwap|1418595333000|/home/jose/Documents/RBM_Project/RBM_dijous/Datasets/bitSwap.py
+Datasets.barsAndStripesUtils|1428650114000|/home/jose/Documents/RBM_Project/RBM_dijous/Datasets/barsAndStripesUtils.py
+Utils.CommonUtils|1418492830000|/home/jose/Documents/RBM_Project/RBM_dijous/Utils/CommonUtils.py
+Machines.Jose_RBM_2|1431188741000|/home/jose/Documents/RBM_Project/RBM_dijous/Machines/Jose_RBM_2.py
+Datasets.parity|1418595684000|/home/jose/Documents/RBM_Project/RBM_dijous/Datasets/parity.py
+Machines.Jose_RBM_3|1431179941000|/home/jose/Documents/RBM_Project/RBM_dijous/Machines/Jose_RBM_3.py
+Datasets.__init__|1427736820000|/home/jose/Documents/RBM_Project/RBM_dijous/Datasets/__init__.py
+execute_2|1431188594000|/home/jose/Documents/RBM_Project/RBM_dijous/execute_2.py
+Utils.__init__|1418425567000|/home/jose/Documents/RBM_Project/RBM_dijous/Utils/__init__.py
+example_Aleix|1430925048000|/home/jose/Documents/RBM_Project/RBM_dijous/example_Aleix.py
+dataset_generation|1430733239000|/home/jose/Documents/RBM_Project/RBM_dijous/dataset_generation.py
+Machines.__init__|1418425567000|/home/jose/Documents/RBM_Project/RBM_dijous/Machines/__init__.py
+Machines.Jose_RBM|1431097348000|/home/jose/Documents/RBM_Project/RBM_dijous/Machines/Jose_RBM.py
+-- END DISKCACHE
+-- START DICTIONARY
+15
+9=Datasets.bitSwap
+13=RBM._prepareProbs
+6=Datasets.barsAndStripesUtils
+7=Utils.CommonUtils
+11=Machines.Jose_RBM_2
+1=Machines.Jose_RBM_3
+8=Datasets.parity
+10=Datasets.__init__
+5=execute_2
+14=RBM.__init__
+3=example_Aleix
+4=dataset_generation
+12=RBM
+15=RBM._prepareCDK
+2=Machines.Jose_RBM
+-- END DICTIONARY
+-- START TREE 1
+34
+__i|2|__init__!10@__init__!18@
+_pr|2|_prepareProbs!18@_prepareProbs!10@
+b_h|2|b_h_params!11@b_h_params!19@
+b_v|2|b_v_params!19@b_v_params!11@
+cdk|1|CDk!27@
+dat|1|DatasetName!27@
+dis|1|display!34@
+equ|1|equal_weights2!43@
+exa|1|exact2!43@
+exe|1|execute!42@
+fil|1|File_w!27@
+fro|2|fromNumberToShape!50@fromShapeToNumber!58@
+gen|8|generate_labeled_shifter!34@generate_parity!34@generatePossibleRows!50@generatePossibleCorrectStates!50@generatePossibleColumns!50@generatePossibleCorrectStates!66@generate_bars_stripes!34@generatePossibleCorrectStates!74@
+get|7|getLikelihood!10@getProbabilities!10@getLogLikelihood!18@getProbabilities!18@getLikelihood!18@getDataset!82@getLogLikelihood!10@
+hid|1|HIDDEN!43@
+hyp|1|hyperparameters!27@
+k_m|2|k_max!43@k_min!43@
+loa|2|load_data!34@load_mnist!34@
+lra|1|LRate!27@
+max|1|MaxEpochs!27@
+min|2|MiniBatchSize!27@MinEpochs!27@
+mom|1|Momentum!27@
+neu|1|NeuronType!27@
+npr|1|nPrint!27@
+num|4|NUM_EPOCHS!43@NumRows!27@NumCols!27@NumHid!27@
+par|1|paramsDataSet!27@
+per|1|Persistent!27@
+plo|1|plotaProbsAndData!58@
+pro|1|PROBLEM!43@
+rbm|4|RBM!17@rbm!27@RBM!89@RBM!9@
+sig|1|Sigma!27@
+tra|5|trainStep!18@TrainRout!27@TrainPercent!27@trainStep!10@train_type!27@
+w_p|2|W_params_value!11@W_params_value!19@
+wei|2|Weighted!27@WeightDecay!27@
+-- END TREE
+-- START TREE 2
+16
+__i|1|__init__!12&90@
+_co|3|_computeCross!12&10@_computeCross!12&90@_computeCross!12&18@
+_in|3|_initializeParameters!12&90@_initializeParameters!12&18@_initializeParameters!12&10@
+_pr|4|_prepareCDK!12&90@_prepareCDK!12&10@_prepareProbs!12&90@_prepareCDK!12&18@
+_re|3|_returnNCDSteps!12&18@_returnNCDSteps!12&90@_returnNCDSteps!12&10@
+com|4|compute_loglikelihood!13&91@compute_visible_states_probabilities!13&91@compute_prob_by_state!13&91@compute_likelihood!13&91@
+dat|3|data_indexs!14&91@data_probabilities!14&91@data!14&91@
+f_t|3|f_train_CD!15&91@f_train_CD!15&11@f_train_CD!15&19@
+get|3|getLogLikelihood!12&90@getLikelihood!12&90@getProbabilities!12&90@
+hid|1|HIDDEN!14&91@
+mea|6|meanfile_visible!15&91@meanfile_visible!15&11@meanfile_hidden!15&91@meanfile_visible!15&19@meanfile_hidden!15&11@meanfile_hidden!15&19@
+pro|1|probability_tensor!13&91@
+sam|6|sample_visible!15&11@sample_hidden!15&91@sample_visible!15&91@sample_visible!15&19@sample_hidden!15&19@sample_hidden!15&11@
+tra|1|trainStep!12&90@
+typ|1|type!14&91@
+vis|2|VISIBLE!14&91@visible_states!14&91@
+-- END TREE

@@ -1,0 +1,190 @@
+
+import theano.tensor
+import numpy
+
+class RBM(object):
+
+    def _computeCross(self,v1,v2):
+        '''
+        Auxiliar function to compute a elemwise outer product between each element in v1 and v2. 
+        We assume v1 to be visible states and v2 to be hidden states. 
+        '''       
+        return theano.tensor.batched_dot(v1.reshape((-1,self.VISIBLE,1)), v2.reshape((-1,self.HIDDEN,1)).dimshuffle(0,2,1))
+        
+    def _returnNCDSteps(self,init_visible, steps):
+        '''
+        Performs k Gibbs sampling steps starting at "init_visible" visible states. 
+        '''       
+        init_hidden = self.sample_hidden(init_visible)
+        aux_visible, aux_hidden = init_visible, init_hidden
+        for _ in range(steps):
+            aux_visible = self.sample_visible(aux_hidden)
+            aux_hidden = self.sample_hidden(aux_visible)
+        return init_visible, init_hidden, aux_visible, aux_hidden
+
+    def _prepareCDK(self, k):
+        #Initialize random generator
+        trng = theano.tensor.shared_randomstreams.RandomStreams(1234)
+        
+        #Prepare functions to project data from visible to hiddens and to sample these hidden mean fields and vice-versa.       
+        self.meanfile_hidden = lambda x: theano.tensor.nnet.sigmoid(theano.tensor.dot(x, self.W_params) + self.b_h.flatten())
+        self.sample_hidden = lambda x: trng.binomial(n=1, p=self.meanfile_hidden(x), dtype=theano.config.floatX)  # @UndefinedVariable
+        self.meanfile_visible = lambda x: theano.tensor.nnet.sigmoid(theano.tensor.dot(x, self.W_params.T) + self.b_v.flatten()) 
+        self.sample_visible = lambda x: trng.binomial(n=1, p=self.meanfile_visible(x), dtype=theano.config.floatX)  # @UndefinedVariable
+        learning_rate = theano.tensor.scalar(dtype = theano.config.floatX)  # @UndefinedVariable
+
+        #We will train computing the exact gradient        
+        if self.type == "exact":
+            all_visibles = theano.tensor.matrix()
+            
+            #Project all the visible units to their hiddens and compute the outer product of the whole dataset.
+            all_hidden = self.meanfile_hidden(all_visibles)
+            all_p_h_given_v = self._computeCross(all_visibles, all_hidden)
+
+            #For the positive phase we will just select the data corresponding to states which have been shown to the machine                
+            positive_phase = all_p_h_given_v[self.data_indexs]
+            #For the negative phase we will take all the states and we will scale them by the probability the model assigns to each one.                
+            negative_phase = self.probability_tensor.reshape((-1,1,1)) * all_p_h_given_v
+            
+            #Lets build the function which will be compilated by theano.    
+            self.f_train_CD = theano.function([learning_rate],[], updates = [(self.W_params, self.W_params + learning_rate * (theano.tensor.mean(positive_phase, axis=0) - theano.tensor.sum(negative_phase, axis=0))),
+                                                                (self.b_h, self.b_h + learning_rate * (theano.tensor.mean(all_hidden[self.data_indexs],axis=0) - theano.tensor.sum(all_hidden * self.probability_tensor.reshape((-1,1)), axis=0).reshape((1,-1)))),
+                                                                (self.b_v, self.b_v + learning_rate * (theano.tensor.mean(all_visibles[self.data_indexs],axis=0) - theano.tensor.sum(all_visibles * self.probability_tensor.reshape((-1,1)), axis=0).reshape((1,-1))))],
+                                                                givens = {all_visibles: self.visible_states})
+
+        else:
+            #These models are based on CD-K and variations. For all the models we will only project to the hidden states
+            #the data provided to the model.
+            init_visible = theano.tensor.matrix()
+            #We perform k gibbs sampling steps
+            init_visible, init_hidden, last_visible, last_hidden = self._returnNCDSteps(init_visible, k)
+            #For the positive phase we will compute the outer product of the provided data and their projection on the hidden space
+            positive_phase = self._computeCross(init_visible, init_hidden)
+            #For the negative phase we will compute the outer product of the last step data and their projection on the hidden space
+            negative_phase = self._computeCross(last_visible, last_hidden)
+
+            if self.type == "equal_weights":
+                #All the samples in the positive and negative phase are given the same weight (we compute a mean)
+                self.f_train_CD = theano.function([learning_rate],[], updates = [  (self.W_params, self.W_params + learning_rate * theano.tensor.mean(positive_phase-negative_phase, axis=0)),
+                                                                      (self.b_h,      self.b_h + learning_rate * theano.tensor.mean(init_hidden - last_hidden, axis=0)),
+                                                                      (self.b_v,      self.b_v + learning_rate * theano.tensor.mean(init_visible - last_visible, axis=0))],
+                                                                      givens = {init_visible: self.data})                
+            elif self.type == "model_weights":
+                #In this case we compute the energy given by the model to all the reconstructed states.
+                #    [http://image.diku.dk/igel/paper/AItRBM-proof.pdf (equation 22)]
+                aux_visibles = theano.tensor.exp(theano.tensor.mul(self.b_v.reshape((-1,1)), last_visible.dimshuffle(1,0)).transpose())
+                aux_hidden = 1+theano.tensor.exp(theano.tensor.dot(last_visible, self.W_params)+self.b_h.flatten())
+                product_of_experts = theano.tensor.cumprod(aux_visibles, axis=1)[:,-1] * theano.tensor.cumprod(aux_hidden, axis=1)[:,-1]
+                #We normalize the computed energies to use them as probabilities
+                product_of_experts /= theano.tensor.sum(product_of_experts) 
+                visible_probs = product_of_experts
+                self.f_train_CD = theano.function([learning_rate],[], updates = [  (self.W_params, self.W_params + learning_rate * (theano.tensor.mean(positive_phase, axis=0) - theano.tensor.sum(negative_phase*visible_probs.reshape((-1,1,1)), axis=0))),
+                                                                  (self.b_h,      self.b_h + learning_rate * (theano.tensor.mean(init_hidden, axis=0) - theano.tensor.sum(last_hidden*visible_probs.reshape((-1,1)), axis=0))),
+                                                                  (self.b_v,      self.b_v + learning_rate * (theano.tensor.mean(init_visible, axis=0) - theano.tensor.sum(last_visible*visible_probs.reshape((-1,1)), axis=0)))],
+                                                                  givens = {init_visible: self.data})
+            elif self.type == "random_weights":
+                random_init = trng.normal((self.data.get_value().shape[0],))
+                visible_probs = random_init / theano.tensor.sum(random_init)
+                self.f_train_CD = theano.function([learning_rate],[], updates = [  (self.W_params, self.W_params + learning_rate * (theano.tensor.mean(positive_phase, axis=0) - theano.tensor.sum(negative_phase*visible_probs.reshape((-1,1,1)), axis=0))),
+                                                                  (self.b_h,      self.b_h + learning_rate * (theano.tensor.mean(init_hidden, axis=0) - theano.tensor.sum(last_hidden*visible_probs.reshape((-1,1)), axis=0))),
+                                                                  (self.b_v,      self.b_v + learning_rate * (theano.tensor.mean(init_visible, axis=0) - theano.tensor.sum(last_visible*visible_probs.reshape((-1,1)), axis=0)))],
+                                                                  givens = {init_visible: self.data})
+                
+            elif self.type == "paranoia_weights":
+                aux = theano.tensor.cast(self.data.shape[0], dtype=theano.config.floatX)  # @UndefinedVariable
+                self.f_train_CD = theano.function([learning_rate],[], updates = [  (self.W_params, self.W_params + learning_rate * (theano.tensor.mean(positive_phase, axis=0) - theano.tensor.sum(negative_phase, axis=0)*aux)),
+                                                                      (self.b_h,      self.b_h + learning_rate * (theano.tensor.mean(init_hidden, axis=0) - theano.tensor.sum(last_hidden, axis=0)*aux)),
+                                                                      (self.b_v,      self.b_v + learning_rate * (theano.tensor.mean(init_visible, axis=0) - theano.tensor.sum(last_visible, axis=0)*aux))],
+                                                                      givens = {init_visible: self.data})
+            else:
+                raise Exception("Type unrecognized... check it! (you passed %s)" % (self.type))
+            
+        
+    def _initializeParameters(self):        
+        W_params_value = numpy.random.normal(0,0.1, size=self.VISIBLE*self.HIDDEN).reshape(self.VISIBLE,self.HIDDEN)
+        b_h_params = numpy.random.normal(0,0.01, size=self.HIDDEN).reshape(1,-1) #(numpy.random.rand(self.HIDDEN)-0.5).reshape(1,-1)
+        b_v_params = numpy.random.normal(0,0.01, size=self.VISIBLE).reshape(1,-1) #(numpy.random.rand(self.VISIBLE)-0.5).reshape(1,-1)
+        return  theano.shared(numpy.asarray(W_params_value, dtype=theano.config.floatX)), theano.shared(numpy.asarray(b_h_params, dtype=theano.config.floatX)), theano.shared(numpy.asarray(b_v_params, dtype=theano.config.floatX))  # @UndefinedVariable
+
+    def _prepareProbs(self):
+        # We implement: http://image.diku.dk/igel/paper/AItRBM-proof.pdf (equation 22)
+        aux_visibles = theano.tensor.exp(theano.tensor.mul(self.b_v.reshape((-1,1)), self.visible_states.dimshuffle(1,0)).transpose())
+        aux_hidden = 1+theano.tensor.exp(theano.tensor.dot(self.visible_states, self.W_params)+self.b_h.flatten())
+        product_of_experts = theano.tensor.cumprod(aux_visibles, axis=1)[:,-1] * theano.tensor.cumprod(aux_hidden, axis=1)[:,-1]
+        self.probability_tensor = product_of_experts / theano.tensor.sum(product_of_experts)
+        self.compute_visible_states_probabilities = theano.function([], self.probability_tensor)
+        self.compute_likelihood = theano.function([], theano.tensor.sum(self.probability_tensor[self.data_indexs]))
+        self.compute_loglikelihood = theano.function([], theano.tensor.sum(theano.tensor.log(self.probability_tensor[self.data_indexs])))
+
+                                
+    def __init__(self, HIDDEN, VISIBLES, data_indexs, k = 1, type = "equal_weights"):
+        '''
+        HIDDEN: number of hidden units
+        VISIBLES: number of visible units
+        data_indexs: integers which represents the states which will be shown to the machine. We assume a binary codification of these states (i.e.  3 --> 011, 4 --> 100)
+        learning_rate_object: object which w
+        k: steps for CD-k (except in the case of exact type. In this specific case k is ignored)
+        type: type of training you want to use.
+        '''
+        self.type = type
+        self.HIDDEN = HIDDEN
+        self.VISIBLE = VISIBLES
+        
+        #Initialize the parameters as shared variables which will be allocated in the memory managed by theano.        
+        self.W_params, self.b_h, self.b_v = self._initializeParameters()
+
+        #Create dense vectors of all the possible states. (we can save some space by avoiding the previous structure, but memory is not the problem here!                       
+        just_visible_units = numpy.zeros((2**VISIBLES, VISIBLES))
+        for j in range(2**VISIBLES):
+            valor = j
+            for i in range(VISIBLES):
+                residuo = valor - valor / 2 * 2
+                just_visible_units[j, VISIBLES-i-1] = residuo
+                valor = valor / 2
+
+        #Decodify the data_indexs in dense vectors of VISIBLE dimensions.                         
+        just_visible_dataset = dataset[0]
+        data_indexs = []
+        for j in range(len(just_visible_states)):
+            valor = 0
+            for i in range(just_visible_states.shape[1]):
+                valor = valor * 2 + just_visible_states[j, VISIBLES-i-1]
+            data_indexs.append(valor)
+        self.data_probabilities = theano.shared(numpy.asarray(dataset[1], dtype=theano.config.floatX))  # @UndefinedVariable
+
+        #Let's create shared variables (allocated in theano memory space) of the structures:
+        #- data: states in the dataset.
+        #- visible_states: all the possible visible states (i.e. seen and unseen).
+        #- data_index: indexs which can be used to access the just_visible_units array if required.                                 
+        self.data = theano.shared(numpy.asarray(just_visible_dataset, dtype=theano.config.floatX))  # @UndefinedVariable
+        self.visible_states = theano.shared(numpy.asarray(just_visible_units, dtype=theano.config.floatX))  # @UndefinedVariable
+        self.data_indexs = theano.shared(numpy.asarray(data_indexs, dtype = 'int32'))        
+ 
+        #Prepare the tensors and functions which will be necessary to train the machine.
+        self._prepareProbs()
+        self._prepareCDK(k)        
+
+    def trainStep(self, learning_rate, momentum_rate):
+        '''
+        Just call this function to perform a single training epoch.
+        '''       
+        self.f_train_CD(learning_rate)
+    
+    def getProbabilities(self):
+        '''
+        Just call this function to perform a single training epoch.
+        '''       
+        return self.compute_visible_states_probabilities()
+
+    def getLikelihood(self):
+        '''
+        Call this function to get the likelihood of the data shown to the machine.
+        '''       
+        return self.compute_likelihood()
+    
+    def getLogLikelihood(self):
+        '''
+        Call this function to get the loglikelihood of the data shown to the machine.
+        '''       
+        return self.compute_loglikelihood()
+

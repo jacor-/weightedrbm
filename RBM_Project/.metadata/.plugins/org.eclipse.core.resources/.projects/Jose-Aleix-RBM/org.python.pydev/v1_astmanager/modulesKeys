@@ -1,0 +1,14 @@
+MODULES_MANAGER_V2
+JoseRBM|/home/jose/Documents/RBM_Project/Jose-Aleix-RBM/JoseRBM.py
+configurations.__init__|/home/jose/Documents/RBM_Project/Jose-Aleix-RBM/configurations/__init__.py
+configurations.rbm_BarsStripes_ContDiv_k01|/home/jose/Documents/RBM_Project/Jose-Aleix-RBM/configurations/rbm_BarsStripes_ContDiv_k01.py
+configurations.rbm_BarsStripes_GradDesc|/home/jose/Documents/RBM_Project/Jose-Aleix-RBM/configurations/rbm_BarsStripes_GradDesc.py
+configurations.rbm_LabeledShifter_ContDiv_k01|/home/jose/Documents/RBM_Project/Jose-Aleix-RBM/configurations/rbm_LabeledShifter_ContDiv_k01.py
+configurations.rbm_LabeledShifter_GradDesc|/home/jose/Documents/RBM_Project/Jose-Aleix-RBM/configurations/rbm_LabeledShifter_GradDesc.py
+configurations.rbm_Parity_ContDiv_k01|/home/jose/Documents/RBM_Project/Jose-Aleix-RBM/configurations/rbm_Parity_ContDiv_k01.py
+configurations.rbm_Parity_GradDesc|/home/jose/Documents/RBM_Project/Jose-Aleix-RBM/configurations/rbm_Parity_GradDesc.py
+dataset_generation|/home/jose/Documents/RBM_Project/Jose-Aleix-RBM/dataset_generation.py
+experiments|/home/jose/Documents/RBM_Project/Jose-Aleix-RBM/experiments.py
+new_rbm|/home/jose/Documents/RBM_Project/Jose-Aleix-RBM/new_rbm.py
+rbm|/home/jose/Documents/RBM_Project/Jose-Aleix-RBM/rbm.py
+settings|/home/jose/Documents/RBM_Project/Jose-Aleix-RBM/settings.py

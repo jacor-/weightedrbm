@@ -1,0 +1,3258 @@
+model_weights
+Initial values
+Train
+  KL  50.694263  LogLKH  6.260  SumProb  0.028
+	Probabilities: 
+	[ 0.  0.  0.  1.  1.  1.  1.  1.  1.]  0.002222   0.071429
+	[ 1.  1.  1.  0.  0.  0.  0.  0.  0.]  0.001693   0.071429
+	[ 1.  0.  0.  1.  0.  0.  1.  0.  0.]  0.001518   0.071429
+	[ 0.  0.  0.  0.  0.  0.  1.  1.  1.]  0.001347   0.071429
+	[ 1.  1.  1.  1.  1.  1.  0.  0.  0.]  0.002914   0.071429
+	[ 0.  0.  0.  1.  1.  1.  0.  0.  0.]  0.001981   0.071429
+	[ 0.  1.  0.  0.  1.  0.  0.  1.  0.]  0.001205   0.071429
+	[ 0.  1.  1.  0.  1.  1.  0.  1.  1.]  0.002339   0.071429
+	[ 1.  0.  1.  1.  0.  1.  1.  0.  1.]  0.002938   0.071429
+	[ 0.  0.  0.  0.  0.  0.  0.  0.  0.]  0.001184   0.071429
+	[ 1.  1.  1.  0.  0.  0.  1.  1.  1.]  0.001821   0.071429
+	[ 1.  1.  0.  1.  1.  0.  1.  1.  0.]  0.001568   0.071429
+	[ 1.  1.  1.  1.  1.  1.  1.  1.  1.]  0.003092   0.071429
+	[ 0.  0.  1.  0.  0.  1.  0.  0.  1.]  0.002255   0.071429
+	LogLKH_Data  -6.260  SumProb_Data:  0.028
+WARNING: (training RBM) Remember that CDk has been set during intialization... this parameter is not being taken into account here
+WARNING: (training RBM) WeightDecay not implemented yet
+Epoch   250
+Train
+  KL  50.629615  LogLKH  6.255  SumProb  0.028
+
+
+Epoch   300
+Train
+  KL  50.567696  LogLKH  6.251  SumProb  0.028
+
+
+Epoch   350
+Train
+  KL  50.517911  LogLKH  6.247  SumProb  0.028
+
+
+Epoch   400
+Train
+  KL  50.474074  LogLKH  6.244  SumProb  0.028
+
+
+Epoch   450
+Train
+  KL  50.441328  LogLKH  6.242  SumProb  0.028
+
+
+Epoch   500
+Train
+  KL  50.413186  LogLKH  6.240  SumProb  0.028
+
+
+Epoch   550
+Train
+  KL  50.381002  LogLKH  6.238  SumProb  0.028
+
+
+Epoch   600
+Train
+  KL  50.362519  LogLKH  6.236  SumProb  0.028
+
+
+Epoch   650
+Train
+  KL  50.355174  LogLKH  6.236  SumProb  0.028
+
+
+Epoch   700
+Train
+  KL  50.344748  LogLKH  6.235  SumProb  0.028
+
+
+Epoch   750
+Train
+  KL  50.329631  LogLKH  6.234  SumProb  0.028
+
+
+Epoch   800
+Train
+  KL  50.319919  LogLKH  6.233  SumProb  0.028
+
+
+Epoch   850
+Train
+  KL  50.311333  LogLKH  6.233  SumProb  0.028
+
+
+Epoch   900
+Train
+  KL  50.304412  LogLKH  6.232  SumProb  0.028
+
+
+Epoch   950
+Train
+  KL  50.302336  LogLKH  6.232  SumProb  0.028
+
+
+Epoch  1000
+Train
+  KL  50.296526  LogLKH  6.232  SumProb  0.028
+
+
+Epoch  1050
+Train
+  KL  50.291673  LogLKH  6.231  SumProb  0.028
+
+
+Epoch  1100
+Train
+  KL  50.288452  LogLKH  6.231  SumProb  0.028
+
+
+Epoch  1150
+Train
+  KL  50.282854  LogLKH  6.231  SumProb  0.028
+
+
+Epoch  1200
+Train
+  KL  50.277730  LogLKH  6.230  SumProb  0.028
+
+
+Epoch  1250
+Train
+  KL  50.275643  LogLKH  6.230  SumProb  0.028
+
+
+Epoch  1300
+Train
+  KL  50.272507  LogLKH  6.230  SumProb  0.028
+
+
+Epoch  1350
+Train
+  KL  50.269832  LogLKH  6.230  SumProb  0.028
+
+
+Epoch  1400
+Train
+  KL  50.266745  LogLKH  6.230  SumProb  0.028
+
+
+Epoch  1450
+Train
+  KL  50.263855  LogLKH  6.229  SumProb  0.028
+
+
+Epoch  1500
+Train
+  KL  50.259300  LogLKH  6.229  SumProb  0.028
+
+
+Epoch  1550
+Train
+  KL  50.255979  LogLKH  6.229  SumProb  0.028
+
+
+Epoch  1600
+Train
+  KL  50.253546  LogLKH  6.229  SumProb  0.028
+
+
+Epoch  1650
+Train
+  KL  50.250323  LogLKH  6.228  SumProb  0.028
+
+
+Epoch  1700
+Train
+  KL  50.251118  LogLKH  6.228  SumProb  0.028
+
+
+Epoch  1750
+Train
+  KL  50.248470  LogLKH  6.228  SumProb  0.028
+
+
+Epoch  1800
+Train
+  KL  50.247216  LogLKH  6.228  SumProb  0.028
+
+
+Epoch  1850
+Train
+  KL  50.244651  LogLKH  6.228  SumProb  0.028
+
+
+Epoch  1900
+Train
+  KL  50.240185  LogLKH  6.228  SumProb  0.028
+
+
+Epoch  1950
+Train
+  KL  50.237182  LogLKH  6.227  SumProb  0.028
+
+
+Epoch  2000
+Train
+  KL  50.234967  LogLKH  6.227  SumProb  0.028
+
+
+Epoch  2050
+Train
+  KL  50.232950  LogLKH  6.227  SumProb  0.028
+
+
+Epoch  2100
+Train
+  KL  50.229796  LogLKH  6.227  SumProb  0.028
+
+
+Epoch  2150
+Train
+  KL  50.227445  LogLKH  6.227  SumProb  0.028
+
+
+Epoch  2200
+Train
+  KL  50.226338  LogLKH  6.227  SumProb  0.028
+
+
+Epoch  2250
+Train
+  KL  50.222328  LogLKH  6.226  SumProb  0.028
+
+
+Epoch  2300
+Train
+  KL  50.219453  LogLKH  6.226  SumProb  0.028
+
+
+Epoch  2350
+Train
+  KL  50.216870  LogLKH  6.226  SumProb  0.028
+
+
+Epoch  2400
+Train
+  KL  50.215013  LogLKH  6.226  SumProb  0.028
+
+
+Epoch  2450
+Train
+  KL  50.212013  LogLKH  6.226  SumProb  0.028
+
+
+Epoch  2500
+Train
+  KL  50.207918  LogLKH  6.225  SumProb  0.028
+
+
+Epoch  2550
+Train
+  KL  50.205427  LogLKH  6.225  SumProb  0.028
+
+
+Epoch  2600
+Train
+  KL  50.203388  LogLKH  6.225  SumProb  0.028
+
+
+Epoch  2650
+Train
+  KL  50.199881  LogLKH  6.225  SumProb  0.028
+
+
+Epoch  2700
+Train
+  KL  50.197355  LogLKH  6.225  SumProb  0.028
+
+
+Epoch  2750
+Train
+  KL  50.195691  LogLKH  6.224  SumProb  0.028
+
+
+Epoch  2800
+Train
+  KL  50.195208  LogLKH  6.224  SumProb  0.028
+
+
+Epoch  2850
+Train
+  KL  50.192012  LogLKH  6.224  SumProb  0.028
+
+
+Epoch  2900
+Train
+  KL  50.188228  LogLKH  6.224  SumProb  0.028
+
+
+Epoch  2950
+Train
+  KL  50.185671  LogLKH  6.224  SumProb  0.028
+
+
+Epoch  3000
+Train
+  KL  50.185303  LogLKH  6.224  SumProb  0.028
+
+
+Epoch  3050
+Train
+  KL  50.181828  LogLKH  6.223  SumProb  0.028
+
+
+Epoch  3100
+Train
+  KL  50.178573  LogLKH  6.223  SumProb  0.028
+
+
+Epoch  3150
+Train
+  KL  50.174964  LogLKH  6.223  SumProb  0.028
+
+
+Epoch  3200
+Train
+  KL  50.173668  LogLKH  6.223  SumProb  0.028
+
+
+Epoch  3250
+Train
+  KL  50.169858  LogLKH  6.223  SumProb  0.028
+
+
+Epoch  3300
+Train
+  KL  50.167626  LogLKH  6.222  SumProb  0.028
+
+
+Epoch  3350
+Train
+  KL  50.164668  LogLKH  6.222  SumProb  0.028
+
+
+Epoch  3400
+Train
+  KL  50.162317  LogLKH  6.222  SumProb  0.028
+
+
+Epoch  3450
+Train
+  KL  50.160673  LogLKH  6.222  SumProb  0.028
+
+
+Epoch  3500
+Train
+  KL  50.158639  LogLKH  6.222  SumProb  0.028
+
+
+Epoch  3550
+Train
+  KL  50.154564  LogLKH  6.222  SumProb  0.028
+
+
+Epoch  3600
+Train
+  KL  50.150858  LogLKH  6.221  SumProb  0.028
+
+
+Epoch  3650
+Train
+  KL  50.149079  LogLKH  6.221  SumProb  0.028
+
+
+Epoch  3700
+Train
+  KL  50.146356  LogLKH  6.221  SumProb  0.028
+
+
+Epoch  3750
+Train
+  KL  50.144649  LogLKH  6.221  SumProb  0.028
+
+
+Epoch  3800
+Train
+  KL  50.143883  LogLKH  6.221  SumProb  0.028
+
+
+Epoch  3850
+Train
+  KL  50.141239  LogLKH  6.221  SumProb  0.028
+
+
+Epoch  3900
+Train
+  KL  50.140188  LogLKH  6.220  SumProb  0.028
+
+
+Epoch  3950
+Train
+  KL  50.134491  LogLKH  6.220  SumProb  0.028
+
+
+Epoch  4000
+Train
+  KL  50.131425  LogLKH  6.220  SumProb  0.028
+
+
+Epoch  4050
+Train
+  KL  50.129073  LogLKH  6.220  SumProb  0.028
+
+
+Epoch  4100
+Train
+  KL  50.125410  LogLKH  6.219  SumProb  0.028
+
+
+Epoch  4150
+Train
+  KL  50.122241  LogLKH  6.219  SumProb  0.028
+
+
+Epoch  4200
+Train
+  KL  50.120643  LogLKH  6.219  SumProb  0.028
+
+
+Epoch  4250
+Train
+  KL  50.118461  LogLKH  6.219  SumProb  0.028
+
+
+Epoch  4300
+Train
+  KL  50.114958  LogLKH  6.219  SumProb  0.028
+
+
+Epoch  4350
+Train
+  KL  50.112817  LogLKH  6.219  SumProb  0.028
+
+
+Epoch  4400
+Train
+  KL  50.108615  LogLKH  6.218  SumProb  0.028
+
+
+Epoch  4450
+Train
+  KL  50.106245  LogLKH  6.218  SumProb  0.028
+
+
+Epoch  4500
+Train
+  KL  50.104134  LogLKH  6.218  SumProb  0.028
+
+
+Epoch  4550
+Train
+  KL  50.099712  LogLKH  6.218  SumProb  0.028
+
+
+Epoch  4600
+Train
+  KL  50.096466  LogLKH  6.217  SumProb  0.028
+
+
+Epoch  4650
+Train
+  KL  50.094580  LogLKH  6.217  SumProb  0.028
+
+
+Epoch  4700
+Train
+  KL  50.092042  LogLKH  6.217  SumProb  0.028
+
+
+Epoch  4750
+Train
+  KL  50.089850  LogLKH  6.217  SumProb  0.028
+
+
+Epoch  4800
+Train
+  KL  50.086518  LogLKH  6.217  SumProb  0.028
+
+
+Epoch  4850
+Train
+  KL  50.082401  LogLKH  6.216  SumProb  0.028
+
+
+Epoch  4900
+Train
+  KL  50.080498  LogLKH  6.216  SumProb  0.028
+
+
+Epoch  4950
+Train
+  KL  50.078886  LogLKH  6.216  SumProb  0.028
+
+
+Epoch  5000
+Train
+  KL  50.076965  LogLKH  6.216  SumProb  0.028
+
+
+Epoch  5050
+Train
+  KL  50.075153  LogLKH  6.216  SumProb  0.028
+
+
+Epoch  5100
+Train
+  KL  50.070346  LogLKH  6.216  SumProb  0.028
+
+
+Epoch  5150
+Train
+  KL  50.068566  LogLKH  6.215  SumProb  0.028
+
+
+Epoch  5200
+Train
+  KL  50.065109  LogLKH  6.215  SumProb  0.028
+
+
+Epoch  5250
+Train
+  KL  50.061758  LogLKH  6.215  SumProb  0.028
+
+
+Epoch  5300
+Train
+  KL  50.058499  LogLKH  6.215  SumProb  0.028
+
+
+Epoch  5350
+Train
+  KL  50.054548  LogLKH  6.214  SumProb  0.028
+
+
+Epoch  5400
+Train
+  KL  50.050913  LogLKH  6.214  SumProb  0.028
+
+
+Epoch  5450
+Train
+  KL  50.049289  LogLKH  6.214  SumProb  0.028
+
+
+Epoch  5500
+Train
+  KL  50.045176  LogLKH  6.214  SumProb  0.028
+
+
+Epoch  5550
+Train
+  KL  50.042912  LogLKH  6.214  SumProb  0.028
+
+
+Epoch  5600
+Train
+  KL  50.038752  LogLKH  6.213  SumProb  0.028
+
+
+Epoch  5650
+Train
+  KL  50.035722  LogLKH  6.213  SumProb  0.028
+
+
+Epoch  5700
+Train
+  KL  50.033778  LogLKH  6.213  SumProb  0.028
+
+
+Epoch  5750
+Train
+  KL  50.033011  LogLKH  6.213  SumProb  0.028
+
+
+Epoch  5800
+Train
+  KL  50.029916  LogLKH  6.213  SumProb  0.028
+
+
+Epoch  5850
+Train
+  KL  50.027390  LogLKH  6.212  SumProb  0.028
+
+
+Epoch  5900
+Train
+  KL  50.029607  LogLKH  6.213  SumProb  0.028
+
+
+Epoch  5950
+Train
+  KL  50.027292  LogLKH  6.212  SumProb  0.028
+
+
+Epoch  6000
+Train
+  KL  50.025980  LogLKH  6.212  SumProb  0.028
+
+
+Epoch  6050
+Train
+  KL  50.023138  LogLKH  6.212  SumProb  0.028
+
+
+Epoch  6100
+Train
+  KL  50.019800  LogLKH  6.212  SumProb  0.028
+
+
+Epoch  6150
+Train
+  KL  50.017336  LogLKH  6.212  SumProb  0.028
+
+
+Epoch  6200
+Train
+  KL  50.014697  LogLKH  6.212  SumProb  0.028
+
+
+Epoch  6250
+Train
+  KL  50.010889  LogLKH  6.211  SumProb  0.028
+
+
+Epoch  6300
+Train
+  KL  50.007706  LogLKH  6.211  SumProb  0.028
+
+
+Epoch  6350
+Train
+  KL  50.004589  LogLKH  6.211  SumProb  0.028
+
+
+Epoch  6400
+Train
+  KL  50.000697  LogLKH  6.211  SumProb  0.028
+
+
+Epoch  6450
+Train
+  KL  49.998864  LogLKH  6.210  SumProb  0.028
+
+
+Epoch  6500
+Train
+  KL  49.994858  LogLKH  6.210  SumProb  0.028
+
+
+Epoch  6550
+Train
+  KL  49.992982  LogLKH  6.210  SumProb  0.028
+
+
+Epoch  6600
+Train
+  KL  49.989105  LogLKH  6.210  SumProb  0.028
+
+
+Epoch  6650
+Train
+  KL  49.986417  LogLKH  6.210  SumProb  0.028
+
+
+Epoch  6700
+Train
+  KL  49.981995  LogLKH  6.209  SumProb  0.028
+
+
+Epoch  6750
+Train
+  KL  49.977748  LogLKH  6.209  SumProb  0.028
+
+
+Epoch  6800
+Train
+  KL  49.975450  LogLKH  6.209  SumProb  0.028
+
+
+Epoch  6850
+Train
+  KL  49.972688  LogLKH  6.209  SumProb  0.028
+
+
+Epoch  6900
+Train
+  KL  49.967302  LogLKH  6.208  SumProb  0.028
+
+
+Epoch  6950
+Train
+  KL  49.962417  LogLKH  6.208  SumProb  0.028
+
+
+Epoch  7000
+Train
+  KL  49.957891  LogLKH  6.207  SumProb  0.028
+
+
+Epoch  7050
+Train
+  KL  49.954220  LogLKH  6.207  SumProb  0.028
+
+
+Epoch  7100
+Train
+  KL  49.948583  LogLKH  6.207  SumProb  0.028
+
+
+Epoch  7150
+Train
+  KL  49.945577  LogLKH  6.207  SumProb  0.028
+
+
+Epoch  7200
+Train
+  KL  49.944585  LogLKH  6.207  SumProb  0.028
+
+
+Epoch  7250
+Train
+  KL  49.940628  LogLKH  6.206  SumProb  0.028
+
+
+Epoch  7300
+Train
+  KL  49.939064  LogLKH  6.206  SumProb  0.028
+
+
+Epoch  7350
+Train
+  KL  49.935033  LogLKH  6.206  SumProb  0.028
+
+
+Epoch  7400
+Train
+  KL  49.929284  LogLKH  6.205  SumProb  0.028
+
+
+Epoch  7450
+Train
+  KL  49.925745  LogLKH  6.205  SumProb  0.028
+
+
+Epoch  7500
+Train
+  KL  49.921152  LogLKH  6.205  SumProb  0.028
+
+
+Epoch  7550
+Train
+  KL  49.919036  LogLKH  6.205  SumProb  0.028
+
+
+Epoch  7600
+Train
+  KL  49.914143  LogLKH  6.204  SumProb  0.028
+
+
+Epoch  7650
+Train
+  KL  49.910703  LogLKH  6.204  SumProb  0.028
+
+
+Epoch  7700
+Train
+  KL  49.907130  LogLKH  6.204  SumProb  0.028
+
+
+Epoch  7750
+Train
+  KL  49.905714  LogLKH  6.204  SumProb  0.028
+
+
+Epoch  7800
+Train
+  KL  49.901202  LogLKH  6.203  SumProb  0.028
+
+
+Epoch  7850
+Train
+  KL  49.895441  LogLKH  6.203  SumProb  0.028
+
+
+Epoch  7900
+Train
+  KL  49.891806  LogLKH  6.203  SumProb  0.028
+
+
+Epoch  7950
+Train
+  KL  49.886929  LogLKH  6.202  SumProb  0.028
+
+
+Epoch  8000
+Train
+  KL  49.883887  LogLKH  6.202  SumProb  0.028
+
+
+Epoch  8050
+Train
+  KL  49.881017  LogLKH  6.202  SumProb  0.028
+
+
+Epoch  8100
+Train
+  KL  49.878447  LogLKH  6.202  SumProb  0.028
+
+
+Epoch  8150
+Train
+  KL  49.878821  LogLKH  6.202  SumProb  0.028
+
+
+Epoch  8200
+Train
+  KL  49.874619  LogLKH  6.202  SumProb  0.028
+
+
+Epoch  8250
+Train
+  KL  49.871356  LogLKH  6.201  SumProb  0.028
+
+
+Epoch  8300
+Train
+  KL  49.869606  LogLKH  6.201  SumProb  0.028
+
+
+Epoch  8350
+Train
+  KL  49.866971  LogLKH  6.201  SumProb  0.028
+
+
+Epoch  8400
+Train
+  KL  49.862305  LogLKH  6.201  SumProb  0.028
+
+
+Epoch  8450
+Train
+  KL  49.859898  LogLKH  6.200  SumProb  0.028
+
+
+Epoch  8500
+Train
+  KL  49.855519  LogLKH  6.200  SumProb  0.028
+
+
+Epoch  8550
+Train
+  KL  49.853054  LogLKH  6.200  SumProb  0.028
+
+
+Epoch  8600
+Train
+  KL  49.848186  LogLKH  6.200  SumProb  0.028
+
+
+Epoch  8650
+Train
+  KL  49.845729  LogLKH  6.199  SumProb  0.028
+
+
+Epoch  8700
+Train
+  KL  49.842406  LogLKH  6.199  SumProb  0.028
+
+
+Epoch  8750
+Train
+  KL  49.837857  LogLKH  6.199  SumProb  0.028
+
+
+Epoch  8800
+Train
+  KL  49.835366  LogLKH  6.199  SumProb  0.028
+
+
+Epoch  8850
+Train
+  KL  49.832091  LogLKH  6.198  SumProb  0.028
+
+
+Epoch  8900
+Train
+  KL  49.829895  LogLKH  6.198  SumProb  0.028
+
+
+Epoch  8950
+Train
+  KL  49.827371  LogLKH  6.198  SumProb  0.028
+
+
+Epoch  9000
+Train
+  KL  49.824750  LogLKH  6.198  SumProb  0.028
+
+
+Epoch  9050
+Train
+  KL  49.823398  LogLKH  6.198  SumProb  0.028
+
+
+Epoch  9100
+Train
+  KL  49.818788  LogLKH  6.198  SumProb  0.029
+
+
+Epoch  9150
+Train
+  KL  49.815219  LogLKH  6.197  SumProb  0.029
+
+
+Epoch  9200
+Train
+  KL  49.814192  LogLKH  6.197  SumProb  0.029
+
+
+Epoch  9250
+Train
+  KL  49.811683  LogLKH  6.197  SumProb  0.029
+
+
+Epoch  9300
+Train
+  KL  49.807550  LogLKH  6.197  SumProb  0.029
+
+
+Epoch  9350
+Train
+  KL  49.803026  LogLKH  6.196  SumProb  0.029
+
+
+Epoch  9400
+Train
+  KL  49.798751  LogLKH  6.196  SumProb  0.029
+
+
+Epoch  9450
+Train
+  KL  49.794173  LogLKH  6.196  SumProb  0.029
+
+
+Epoch  9500
+Train
+  KL  49.788343  LogLKH  6.195  SumProb  0.029
+
+
+Epoch  9550
+Train
+  KL  49.781590  LogLKH  6.195  SumProb  0.029
+
+
+Epoch  9600
+Train
+  KL  49.777050  LogLKH  6.195  SumProb  0.029
+
+
+Epoch  9650
+Train
+  KL  49.774945  LogLKH  6.194  SumProb  0.029
+
+
+Epoch  9700
+Train
+  KL  49.770922  LogLKH  6.194  SumProb  0.029
+
+
+Epoch  9750
+Train
+  KL  49.767425  LogLKH  6.194  SumProb  0.029
+
+
+Epoch  9800
+Train
+  KL  49.763014  LogLKH  6.194  SumProb  0.029
+
+
+Epoch  9850
+Train
+  KL  49.758792  LogLKH  6.193  SumProb  0.029
+
+
+Epoch  9900
+Train
+  KL  49.754518  LogLKH  6.193  SumProb  0.029
+
+
+Epoch  9950
+Train
+  KL  49.749096  LogLKH  6.193  SumProb  0.029
+
+
+Epoch 10000
+Train
+  KL  49.743460  LogLKH  6.192  SumProb  0.029
+
+
+Epoch 10050
+Train
+  KL  49.737966  LogLKH  6.192  SumProb  0.029
+
+
+Epoch 10100
+Train
+  KL  49.734299  LogLKH  6.192  SumProb  0.029
+
+
+Epoch 10150
+Train
+  KL  49.730887  LogLKH  6.191  SumProb  0.029
+
+
+Epoch 10200
+Train
+  KL  49.726674  LogLKH  6.191  SumProb  0.029
+
+
+Epoch 10250
+Train
+  KL  49.724184  LogLKH  6.191  SumProb  0.029
+
+
+Epoch 10300
+Train
+  KL  49.721200  LogLKH  6.191  SumProb  0.029
+
+
+Epoch 10350
+Train
+  KL  49.718768  LogLKH  6.190  SumProb  0.029
+
+
+Epoch 10400
+Train
+  KL  49.716396  LogLKH  6.190  SumProb  0.029
+
+
+Epoch 10450
+Train
+  KL  49.714778  LogLKH  6.190  SumProb  0.029
+
+
+Epoch 10500
+Train
+  KL  49.710972  LogLKH  6.190  SumProb  0.029
+
+
+Epoch 10550
+Train
+  KL  49.706470  LogLKH  6.190  SumProb  0.029
+
+
+Epoch 10600
+Train
+  KL  49.701337  LogLKH  6.189  SumProb  0.029
+
+
+Epoch 10650
+Train
+  KL  49.695796  LogLKH  6.189  SumProb  0.029
+
+
+Epoch 10700
+Train
+  KL  49.693702  LogLKH  6.189  SumProb  0.029
+
+
+Epoch 10750
+Train
+  KL  49.689766  LogLKH  6.188  SumProb  0.029
+
+
+Epoch 10800
+Train
+  KL  49.685929  LogLKH  6.188  SumProb  0.029
+
+
+Epoch 10850
+Train
+  KL  49.680833  LogLKH  6.188  SumProb  0.029
+
+
+Epoch 10900
+Train
+  KL  49.677841  LogLKH  6.187  SumProb  0.029
+
+
+Epoch 10950
+Train
+  KL  49.676356  LogLKH  6.187  SumProb  0.029
+
+
+Epoch 11000
+Train
+  KL  49.670821  LogLKH  6.187  SumProb  0.029
+
+
+Epoch 11050
+Train
+  KL  49.666718  LogLKH  6.187  SumProb  0.029
+
+
+Epoch 11100
+Train
+  KL  49.662993  LogLKH  6.186  SumProb  0.029
+
+
+Epoch 11150
+Train
+  KL  49.657778  LogLKH  6.186  SumProb  0.029
+
+
+Epoch 11200
+Train
+  KL  49.654402  LogLKH  6.186  SumProb  0.029
+
+
+Epoch 11250
+Train
+  KL  49.647359  LogLKH  6.185  SumProb  0.029
+
+
+Epoch 11300
+Train
+  KL  49.640517  LogLKH  6.185  SumProb  0.029
+
+
+Epoch 11350
+Train
+  KL  49.638463  LogLKH  6.185  SumProb  0.029
+
+
+Epoch 11400
+Train
+  KL  49.632733  LogLKH  6.184  SumProb  0.029
+
+
+Epoch 11450
+Train
+  KL  49.629783  LogLKH  6.184  SumProb  0.029
+
+
+Epoch 11500
+Train
+  KL  49.628914  LogLKH  6.184  SumProb  0.029
+
+
+Epoch 11550
+Train
+  KL  49.625311  LogLKH  6.184  SumProb  0.029
+
+
+Epoch 11600
+Train
+  KL  49.621575  LogLKH  6.183  SumProb  0.029
+
+
+Epoch 11650
+Train
+  KL  49.616800  LogLKH  6.183  SumProb  0.029
+
+
+Epoch 11700
+Train
+  KL  49.610889  LogLKH  6.183  SumProb  0.029
+
+
+Epoch 11750
+Train
+  KL  49.605391  LogLKH  6.182  SumProb  0.029
+
+
+Epoch 11800
+Train
+  KL  49.601585  LogLKH  6.182  SumProb  0.029
+
+
+Epoch 11850
+Train
+  KL  49.597862  LogLKH  6.182  SumProb  0.029
+
+
+Epoch 11900
+Train
+  KL  49.593355  LogLKH  6.181  SumProb  0.029
+
+
+Epoch 11950
+Train
+  KL  49.588728  LogLKH  6.181  SumProb  0.029
+
+
+Epoch 12000
+Train
+  KL  49.583760  LogLKH  6.181  SumProb  0.029
+
+
+Epoch 12050
+Train
+  KL  49.582364  LogLKH  6.181  SumProb  0.029
+
+
+Epoch 12100
+Train
+  KL  49.577578  LogLKH  6.180  SumProb  0.029
+
+
+Epoch 12150
+Train
+  KL  49.575728  LogLKH  6.180  SumProb  0.029
+
+
+Epoch 12200
+Train
+  KL  49.568688  LogLKH  6.180  SumProb  0.029
+
+
+Epoch 12250
+Train
+  KL  49.563503  LogLKH  6.179  SumProb  0.029
+
+
+Epoch 12300
+Train
+  KL  49.559032  LogLKH  6.179  SumProb  0.029
+
+
+Epoch 12350
+Train
+  KL  49.554318  LogLKH  6.179  SumProb  0.029
+
+
+Epoch 12400
+Train
+  KL  49.549441  LogLKH  6.178  SumProb  0.029
+
+
+Epoch 12450
+Train
+  KL  49.544119  LogLKH  6.178  SumProb  0.029
+
+
+Epoch 12500
+Train
+  KL  49.538734  LogLKH  6.178  SumProb  0.029
+
+
+Epoch 12550
+Train
+  KL  49.532960  LogLKH  6.177  SumProb  0.029
+
+
+Epoch 12600
+Train
+  KL  49.527320  LogLKH  6.177  SumProb  0.029
+
+
+Epoch 12650
+Train
+  KL  49.524198  LogLKH  6.177  SumProb  0.029
+
+
+Epoch 12700
+Train
+  KL  49.521883  LogLKH  6.176  SumProb  0.029
+
+
+Epoch 12750
+Train
+  KL  49.515766  LogLKH  6.176  SumProb  0.029
+
+
+Epoch 12800
+Train
+  KL  49.509065  LogLKH  6.175  SumProb  0.029
+
+
+Epoch 12850
+Train
+  KL  49.505414  LogLKH  6.175  SumProb  0.029
+
+
+Epoch 12900
+Train
+  KL  49.501446  LogLKH  6.175  SumProb  0.029
+
+
+Epoch 12950
+Train
+  KL  49.498304  LogLKH  6.175  SumProb  0.029
+
+
+Epoch 13000
+Train
+  KL  49.496070  LogLKH  6.174  SumProb  0.029
+
+
+Epoch 13050
+Train
+  KL  49.494198  LogLKH  6.174  SumProb  0.029
+
+
+Epoch 13100
+Train
+  KL  49.490695  LogLKH  6.174  SumProb  0.029
+
+
+Epoch 13150
+Train
+  KL  49.486074  LogLKH  6.174  SumProb  0.029
+
+
+Epoch 13200
+Train
+  KL  49.482781  LogLKH  6.174  SumProb  0.029
+
+
+Epoch 13250
+Train
+  KL  49.480797  LogLKH  6.173  SumProb  0.029
+
+
+Epoch 13300
+Train
+  KL  49.476204  LogLKH  6.173  SumProb  0.029
+
+
+Epoch 13350
+Train
+  KL  49.471138  LogLKH  6.173  SumProb  0.029
+
+
+Epoch 13400
+Train
+  KL  49.465813  LogLKH  6.172  SumProb  0.029
+
+
+Epoch 13450
+Train
+  KL  49.463372  LogLKH  6.172  SumProb  0.029
+
+
+Epoch 13500
+Train
+  KL  49.459898  LogLKH  6.172  SumProb  0.029
+
+
+Epoch 13550
+Train
+  KL  49.456212  LogLKH  6.172  SumProb  0.029
+
+
+Epoch 13600
+Train
+  KL  49.450632  LogLKH  6.171  SumProb  0.029
+
+
+Epoch 13650
+Train
+  KL  49.447546  LogLKH  6.171  SumProb  0.029
+
+
+Epoch 13700
+Train
+  KL  49.445784  LogLKH  6.171  SumProb  0.029
+
+
+Epoch 13750
+Train
+  KL  49.439469  LogLKH  6.170  SumProb  0.029
+
+
+Epoch 13800
+Train
+  KL  49.433601  LogLKH  6.170  SumProb  0.029
+
+
+Epoch 13850
+Train
+  KL  49.430585  LogLKH  6.170  SumProb  0.029
+
+
+Epoch 13900
+Train
+  KL  49.424443  LogLKH  6.169  SumProb  0.029
+
+
+Epoch 13950
+Train
+  KL  49.419563  LogLKH  6.169  SumProb  0.029
+
+
+Epoch 14000
+Train
+  KL  49.414990  LogLKH  6.169  SumProb  0.029
+
+
+Epoch 14050
+Train
+  KL  49.412771  LogLKH  6.169  SumProb  0.029
+
+
+Epoch 14100
+Train
+  KL  49.408719  LogLKH  6.168  SumProb  0.029
+
+
+Epoch 14150
+Train
+  KL  49.402522  LogLKH  6.168  SumProb  0.029
+
+
+Epoch 14200
+Train
+  KL  49.398807  LogLKH  6.168  SumProb  0.029
+
+
+Epoch 14250
+Train
+  KL  49.393472  LogLKH  6.167  SumProb  0.029
+
+
+Epoch 14300
+Train
+  KL  49.389007  LogLKH  6.167  SumProb  0.029
+
+
+Epoch 14350
+Train
+  KL  49.385063  LogLKH  6.167  SumProb  0.029
+
+
+Epoch 14400
+Train
+  KL  49.380412  LogLKH  6.166  SumProb  0.029
+
+
+Epoch 14450
+Train
+  KL  49.374304  LogLKH  6.166  SumProb  0.029
+
+
+Epoch 14500
+Train
+  KL  49.371097  LogLKH  6.166  SumProb  0.029
+
+
+Epoch 14550
+Train
+  KL  49.369697  LogLKH  6.165  SumProb  0.029
+
+
+Epoch 14600
+Train
+  KL  49.364642  LogLKH  6.165  SumProb  0.029
+
+
+Epoch 14650
+Train
+  KL  49.361119  LogLKH  6.165  SumProb  0.029
+
+
+Epoch 14700
+Train
+  KL  49.354962  LogLKH  6.164  SumProb  0.029
+
+
+Epoch 14750
+Train
+  KL  49.350373  LogLKH  6.164  SumProb  0.030
+
+
+Epoch 14800
+Train
+  KL  49.344313  LogLKH  6.164  SumProb  0.030
+
+
+Epoch 14850
+Train
+  KL  49.335803  LogLKH  6.163  SumProb  0.030
+
+
+Epoch 14900
+Train
+  KL  49.332231  LogLKH  6.163  SumProb  0.030
+
+
+Epoch 14950
+Train
+  KL  49.325266  LogLKH  6.162  SumProb  0.030
+
+
+Epoch 15000
+Train
+  KL  49.321055  LogLKH  6.162  SumProb  0.030
+
+
+Epoch 15050
+Train
+  KL  49.316769  LogLKH  6.162  SumProb  0.030
+
+
+Epoch 15100
+Train
+  KL  49.310293  LogLKH  6.161  SumProb  0.030
+
+
+Epoch 15150
+Train
+  KL  49.304692  LogLKH  6.161  SumProb  0.030
+
+
+Epoch 15200
+Train
+  KL  49.298231  LogLKH  6.160  SumProb  0.030
+
+
+Epoch 15250
+Train
+  KL  49.292821  LogLKH  6.160  SumProb  0.030
+
+
+Epoch 15300
+Train
+  KL  49.290556  LogLKH  6.160  SumProb  0.030
+
+
+Epoch 15350
+Train
+  KL  49.286079  LogLKH  6.159  SumProb  0.030
+
+
+Epoch 15400
+Train
+  KL  49.279334  LogLKH  6.159  SumProb  0.030
+
+
+Epoch 15450
+Train
+  KL  49.273669  LogLKH  6.159  SumProb  0.030
+
+
+Epoch 15500
+Train
+  KL  49.269738  LogLKH  6.158  SumProb  0.030
+
+
+Epoch 15550
+Train
+  KL  49.264591  LogLKH  6.158  SumProb  0.030
+
+
+Epoch 15600
+Train
+  KL  49.259004  LogLKH  6.158  SumProb  0.030
+
+
+Epoch 15650
+Train
+  KL  49.255347  LogLKH  6.157  SumProb  0.030
+
+
+Epoch 15700
+Train
+  KL  49.252574  LogLKH  6.157  SumProb  0.030
+
+
+Epoch 15750
+Train
+  KL  49.248164  LogLKH  6.157  SumProb  0.030
+
+
+Epoch 15800
+Train
+  KL  49.243734  LogLKH  6.156  SumProb  0.030
+
+
+Epoch 15850
+Train
+  KL  49.239243  LogLKH  6.156  SumProb  0.030
+
+
+Epoch 15900
+Train
+  KL  49.234113  LogLKH  6.156  SumProb  0.030
+
+
+Epoch 15950
+Train
+  KL  49.228705  LogLKH  6.155  SumProb  0.030
+
+
+Epoch 16000
+Train
+  KL  49.222344  LogLKH  6.155  SumProb  0.030
+
+
+Epoch 16050
+Train
+  KL  49.215392  LogLKH  6.154  SumProb  0.030
+
+
+Epoch 16100
+Train
+  KL  49.207728  LogLKH  6.154  SumProb  0.030
+
+
+Epoch 16150
+Train
+  KL  49.202222  LogLKH  6.154  SumProb  0.030
+
+
+Epoch 16200
+Train
+  KL  49.195387  LogLKH  6.153  SumProb  0.030
+
+
+Epoch 16250
+Train
+  KL  49.188448  LogLKH  6.153  SumProb  0.030
+
+
+Epoch 16300
+Train
+  KL  49.182540  LogLKH  6.152  SumProb  0.030
+
+
+Epoch 16350
+Train
+  KL  49.176945  LogLKH  6.152  SumProb  0.030
+
+
+Epoch 16400
+Train
+  KL  49.170312  LogLKH  6.151  SumProb  0.030
+
+
+Epoch 16450
+Train
+  KL  49.165261  LogLKH  6.151  SumProb  0.030
+
+
+Epoch 16500
+Train
+  KL  49.158338  LogLKH  6.150  SumProb  0.030
+
+
+Epoch 16550
+Train
+  KL  49.153518  LogLKH  6.150  SumProb  0.030
+
+
+Epoch 16600
+Train
+  KL  49.145870  LogLKH  6.149  SumProb  0.030
+
+
+Epoch 16650
+Train
+  KL  49.141305  LogLKH  6.149  SumProb  0.030
+
+
+Epoch 16700
+Train
+  KL  49.135979  LogLKH  6.149  SumProb  0.030
+
+
+Epoch 16750
+Train
+  KL  49.130980  LogLKH  6.148  SumProb  0.030
+
+
+Epoch 16800
+Train
+  KL  49.122959  LogLKH  6.148  SumProb  0.030
+
+
+Epoch 16850
+Train
+  KL  49.119626  LogLKH  6.148  SumProb  0.030
+
+
+Epoch 16900
+Train
+  KL  49.114715  LogLKH  6.147  SumProb  0.030
+
+
+Epoch 16950
+Train
+  KL  49.107272  LogLKH  6.147  SumProb  0.030
+
+
+Epoch 17000
+Train
+  KL  49.101516  LogLKH  6.146  SumProb  0.030
+
+
+Epoch 17050
+Train
+  KL  49.096992  LogLKH  6.146  SumProb  0.030
+
+
+Epoch 17100
+Train
+  KL  49.093606  LogLKH  6.146  SumProb  0.030
+
+
+Epoch 17150
+Train
+  KL  49.089677  LogLKH  6.145  SumProb  0.030
+
+
+Epoch 17200
+Train
+  KL  49.084233  LogLKH  6.145  SumProb  0.030
+
+
+Epoch 17250
+Train
+  KL  49.077024  LogLKH  6.145  SumProb  0.030
+
+
+Epoch 17300
+Train
+  KL  49.068537  LogLKH  6.144  SumProb  0.030
+
+
+Epoch 17350
+Train
+  KL  49.063319  LogLKH  6.144  SumProb  0.030
+
+
+Epoch 17400
+Train
+  KL  49.059461  LogLKH  6.143  SumProb  0.030
+
+
+Epoch 17450
+Train
+  KL  49.054345  LogLKH  6.143  SumProb  0.030
+
+
+Epoch 17500
+Train
+  KL  49.051067  LogLKH  6.143  SumProb  0.030
+
+
+Epoch 17550
+Train
+  KL  49.045320  LogLKH  6.142  SumProb  0.030
+
+
+Epoch 17600
+Train
+  KL  49.038616  LogLKH  6.142  SumProb  0.030
+
+
+Epoch 17650
+Train
+  KL  49.031537  LogLKH  6.141  SumProb  0.030
+
+
+Epoch 17700
+Train
+  KL  49.027278  LogLKH  6.141  SumProb  0.030
+
+
+Epoch 17750
+Train
+  KL  49.022904  LogLKH  6.141  SumProb  0.030
+
+
+Epoch 17800
+Train
+  KL  49.017361  LogLKH  6.140  SumProb  0.030
+
+
+Epoch 17850
+Train
+  KL  49.014048  LogLKH  6.140  SumProb  0.030
+
+
+Epoch 17900
+Train
+  KL  49.008127  LogLKH  6.140  SumProb  0.030
+
+
+Epoch 17950
+Train
+  KL  49.000137  LogLKH  6.139  SumProb  0.030
+
+
+Epoch 18000
+Train
+  KL  48.991012  LogLKH  6.138  SumProb  0.030
+
+
+Epoch 18050
+Train
+  KL  48.987448  LogLKH  6.138  SumProb  0.030
+
+
+Epoch 18100
+Train
+  KL  48.983733  LogLKH  6.138  SumProb  0.030
+
+
+Epoch 18150
+Train
+  KL  48.977996  LogLKH  6.137  SumProb  0.030
+
+
+Epoch 18200
+Train
+  KL  48.973944  LogLKH  6.137  SumProb  0.030
+
+
+Epoch 18250
+Train
+  KL  48.966609  LogLKH  6.137  SumProb  0.030
+
+
+Epoch 18300
+Train
+  KL  48.960305  LogLKH  6.136  SumProb  0.030
+
+
+Epoch 18350
+Train
+  KL  48.954221  LogLKH  6.136  SumProb  0.030
+
+
+Epoch 18400
+Train
+  KL  48.949521  LogLKH  6.135  SumProb  0.030
+
+
+Epoch 18450
+Train
+  KL  48.943529  LogLKH  6.135  SumProb  0.030
+
+
+Epoch 18500
+Train
+  KL  48.937294  LogLKH  6.135  SumProb  0.030
+
+
+Epoch 18550
+Train
+  KL  48.930458  LogLKH  6.134  SumProb  0.030
+
+
+Epoch 18600
+Train
+  KL  48.925188  LogLKH  6.134  SumProb  0.030
+
+
+Epoch 18650
+Train
+  KL  48.920776  LogLKH  6.133  SumProb  0.030
+
+
+Epoch 18700
+Train
+  KL  48.916440  LogLKH  6.133  SumProb  0.030
+
+
+Epoch 18750
+Train
+  KL  48.913150  LogLKH  6.133  SumProb  0.030
+
+
+Epoch 18800
+Train
+  KL  48.904525  LogLKH  6.132  SumProb  0.031
+
+
+Epoch 18850
+Train
+  KL  48.895791  LogLKH  6.132  SumProb  0.031
+
+
+Epoch 18900
+Train
+  KL  48.886288  LogLKH  6.131  SumProb  0.031
+
+
+Epoch 18950
+Train
+  KL  48.878236  LogLKH  6.130  SumProb  0.031
+
+
+Epoch 19000
+Train
+  KL  48.871300  LogLKH  6.130  SumProb  0.031
+
+
+Epoch 19050
+Train
+  KL  48.865539  LogLKH  6.129  SumProb  0.031
+
+
+Epoch 19100
+Train
+  KL  48.861531  LogLKH  6.129  SumProb  0.031
+
+
+Epoch 19150
+Train
+  KL  48.856531  LogLKH  6.129  SumProb  0.031
+
+
+Epoch 19200
+Train
+  KL  48.852285  LogLKH  6.129  SumProb  0.031
+
+
+Epoch 19250
+Train
+  KL  48.845540  LogLKH  6.128  SumProb  0.031
+
+
+Epoch 19300
+Train
+  KL  48.840536  LogLKH  6.128  SumProb  0.031
+
+
+Epoch 19350
+Train
+  KL  48.833452  LogLKH  6.127  SumProb  0.031
+
+
+Epoch 19400
+Train
+  KL  48.829039  LogLKH  6.127  SumProb  0.031
+
+
+Epoch 19450
+Train
+  KL  48.821656  LogLKH  6.126  SumProb  0.031
+
+
+Epoch 19500
+Train
+  KL  48.815966  LogLKH  6.126  SumProb  0.031
+
+
+Epoch 19550
+Train
+  KL  48.810010  LogLKH  6.125  SumProb  0.031
+
+
+Epoch 19600
+Train
+  KL  48.802745  LogLKH  6.125  SumProb  0.031
+
+
+Epoch 19650
+Train
+  KL  48.796761  LogLKH  6.125  SumProb  0.031
+
+
+Epoch 19700
+Train
+  KL  48.788970  LogLKH  6.124  SumProb  0.031
+
+
+Epoch 19750
+Train
+  KL  48.783463  LogLKH  6.124  SumProb  0.031
+
+
+Epoch 19800
+Train
+  KL  48.778883  LogLKH  6.123  SumProb  0.031
+
+
+Epoch 19850
+Train
+  KL  48.774061  LogLKH  6.123  SumProb  0.031
+
+
+Epoch 19900
+Train
+  KL  48.766529  LogLKH  6.122  SumProb  0.031
+
+
+Epoch 19950
+Train
+  KL  48.759489  LogLKH  6.122  SumProb  0.031
+
+
+Epoch 20000
+Train
+  KL  48.754417  LogLKH  6.122  SumProb  0.031
+
+
+Final values
+Train
+  KL  48.754417  LogLKH  6.122  SumProb  0.031
+	Probabilities: 
+	[ 0.  0.  0.  1.  1.  1.  1.  1.  1.]  0.002360   0.071429
+	[ 1.  1.  1.  0.  0.  0.  0.  0.  0.]  0.002260   0.071429
+	[ 1.  0.  0.  1.  0.  0.  1.  0.  0.]  0.001992   0.071429
+	[ 0.  0.  0.  0.  0.  0.  1.  1.  1.]  0.002504   0.071429
+	[ 1.  1.  1.  1.  1.  1.  0.  0.  0.]  0.002492   0.071429
+	[ 0.  0.  0.  1.  1.  1.  0.  0.  0.]  0.002075   0.071429
+	[ 0.  1.  0.  0.  1.  0.  0.  1.  0.]  0.002004   0.071429
+	[ 0.  1.  1.  0.  1.  1.  0.  1.  1.]  0.002115   0.071429
+	[ 1.  0.  1.  1.  0.  1.  1.  0.  1.]  0.002022   0.071429
+	[ 0.  0.  0.  0.  0.  0.  0.  0.  0.]  0.002490   0.071429
+	[ 1.  1.  1.  0.  0.  0.  1.  1.  1.]  0.002032   0.071429
+	[ 1.  1.  0.  1.  1.  0.  1.  1.  0.]  0.001972   0.071429
+	[ 1.  1.  1.  1.  1.  1.  1.  1.  1.]  0.002491   0.071429
+	[ 0.  0.  1.  0.  0.  1.  0.  0.  1.]  0.002059   0.071429
+	LogLKH_Data  -6.122  SumProb_Data:  0.031
+Initial values
+Train  KL  3.695022  LogLKH  -6.334  SumProb  0.028  RecErr(CD1)  2.284  RecErr(Real)  0.000
+	Probabilities: 
+	[0, 0, 0, 1, 1, 1, 1, 1, 1]  0.003348   0.071429
+	[1, 1, 1, 0, 0, 0, 0, 0, 0]  0.000926   0.071429
+	[1, 0, 0, 1, 0, 0, 1, 0, 0]  0.001562   0.071429
+	[0, 0, 0, 0, 0, 0, 1, 1, 1]  0.001633   0.071429
+	[1, 1, 1, 1, 1, 1, 0, 0, 0]  0.001890   0.071429
+	[0, 0, 0, 1, 1, 1, 0, 0, 0]  0.002379   0.071429
+	[0, 1, 0, 0, 1, 0, 0, 1, 0]  0.000821   0.071429
+	[0, 1, 1, 0, 1, 1, 0, 1, 1]  0.002095   0.071429
+	[1, 0, 1, 1, 0, 1, 1, 0, 1]  0.003869   0.071429
+	[0, 0, 0, 0, 0, 0, 0, 0, 0]  0.001155   0.071429
+	[1, 1, 1, 0, 0, 0, 1, 1, 1]  0.001300   0.071429
+	[1, 1, 0, 1, 1, 0, 1, 1, 0]  0.001090   0.071429
+	[1, 1, 1, 1, 1, 1, 1, 1, 1]  0.002639   0.071429
+	[0, 0, 1, 0, 0, 1, 0, 0, 1]  0.003016   0.071429
+	LogLKH_Data  -2.639  SumProb_Data:  1.000
+Epoch    50
+Train  KL  3.635930  LogLKH  -6.275  SumProb  0.027  RecErr(CD1)  2.269  RecErr(Real)  2.327
+
+Epoch   100
+Train  KL  3.612265  LogLKH  -6.251  SumProb  0.027  RecErr(CD1)  2.191  RecErr(Real)  2.265
+
+Epoch   150
+Train  KL  3.604422  LogLKH  -6.243  SumProb  0.027  RecErr(CD1)  2.216  RecErr(Real)  2.171
+
+Epoch   200
+Train  KL  3.600854  LogLKH  -6.240  SumProb  0.027  RecErr(CD1)  2.205  RecErr(Real)  2.243
+
+Epoch   250
+Train  KL  3.598087  LogLKH  -6.237  SumProb  0.027  RecErr(CD1)  2.309  RecErr(Real)  2.270
+
+Epoch   300
+Train  KL  3.595337  LogLKH  -6.234  SumProb  0.027  RecErr(CD1)  2.220  RecErr(Real)  2.226
+
+Epoch   350
+Train  KL  3.592376  LogLKH  -6.231  SumProb  0.028  RecErr(CD1)  2.233  RecErr(Real)  2.277
+
+Epoch   400
+Train  KL  3.589159  LogLKH  -6.228  SumProb  0.028  RecErr(CD1)  2.248  RecErr(Real)  2.153
+
+Epoch   450
+Train  KL  3.585635  LogLKH  -6.225  SumProb  0.028  RecErr(CD1)  2.184  RecErr(Real)  2.150
+
+Epoch   500
+Train  KL  3.581722  LogLKH  -6.221  SumProb  0.028  RecErr(CD1)  2.168  RecErr(Real)  2.139
+
+Epoch   550
+Train  KL  3.577423  LogLKH  -6.216  SumProb  0.028  RecErr(CD1)  2.236  RecErr(Real)  2.124
+
+Epoch   600
+Train  KL  3.572709  LogLKH  -6.212  SumProb  0.028  RecErr(CD1)  2.217  RecErr(Real)  2.137
+
+Epoch   650
+Train  KL  3.567601  LogLKH  -6.207  SumProb  0.028  RecErr(CD1)  2.137  RecErr(Real)  2.227
+
+Epoch   700
+Train  KL  3.561878  LogLKH  -6.201  SumProb  0.028  RecErr(CD1)  2.225  RecErr(Real)  2.073
+
+Epoch   750
+Train  KL  3.555590  LogLKH  -6.195  SumProb  0.029  RecErr(CD1)  1.988  RecErr(Real)  2.220
+
+Epoch   800
+Train  KL  3.548852  LogLKH  -6.188  SumProb  0.029  RecErr(CD1)  2.233  RecErr(Real)  2.094
+
+Epoch   850
+Train  KL  3.541515  LogLKH  -6.181  SumProb  0.029  RecErr(CD1)  2.134  RecErr(Real)  2.244
+
+Epoch   900
+Train  KL  3.533541  LogLKH  -6.173  SumProb  0.029  RecErr(CD1)  2.146  RecErr(Real)  2.118
+
+Epoch   950
+Train  KL  3.524919  LogLKH  -6.164  SumProb  0.030  RecErr(CD1)  2.038  RecErr(Real)  2.105
+
+Epoch  1000
+Train  KL  3.515598  LogLKH  -6.155  SumProb  0.030  RecErr(CD1)  2.237  RecErr(Real)  2.083
+
+Epoch  1050
+Train  KL  3.505587  LogLKH  -6.145  SumProb  0.030  RecErr(CD1)  2.170  RecErr(Real)  2.274
+
+Epoch  1100
+Train  KL  3.495136  LogLKH  -6.134  SumProb  0.031  RecErr(CD1)  2.080  RecErr(Real)  2.053
+
+Epoch  1150
+Train  KL  3.483405  LogLKH  -6.122  SumProb  0.031  RecErr(CD1)  2.041  RecErr(Real)  1.902
+
+Epoch  1200
+Train  KL  3.471032  LogLKH  -6.110  SumProb  0.031  RecErr(CD1)  2.049  RecErr(Real)  2.100
+
+Epoch  1250
+Train  KL  3.458032  LogLKH  -6.097  SumProb  0.032  RecErr(CD1)  2.049  RecErr(Real)  1.930
+
+Epoch  1300
+Train  KL  3.444318  LogLKH  -6.083  SumProb  0.032  RecErr(CD1)  1.838  RecErr(Real)  1.962
+
+Epoch  1350
+Train  KL  3.429700  LogLKH  -6.069  SumProb  0.033  RecErr(CD1)  1.966  RecErr(Real)  1.783
+
+Epoch  1400
+Train  KL  3.414564  LogLKH  -6.054  SumProb  0.033  RecErr(CD1)  1.880  RecErr(Real)  2.070
+
+Epoch  1450
+Train  KL  3.398195  LogLKH  -6.037  SumProb  0.034  RecErr(CD1)  1.751  RecErr(Real)  1.765
+
+Epoch  1500
+Train  KL  3.381387  LogLKH  -6.020  SumProb  0.035  RecErr(CD1)  1.849  RecErr(Real)  1.895
+
+Epoch  1550
+Train  KL  3.363990  LogLKH  -6.003  SumProb  0.035  RecErr(CD1)  2.021  RecErr(Real)  1.860
+
+Epoch  1600
+Train  KL  3.346102  LogLKH  -5.985  SumProb  0.036  RecErr(CD1)  1.959  RecErr(Real)  1.825
+
+Epoch  1650
+Train  KL  3.327018  LogLKH  -5.966  SumProb  0.037  RecErr(CD1)  1.914  RecErr(Real)  1.767
+
+Epoch  1700
+Train  KL  3.308025  LogLKH  -5.947  SumProb  0.038  RecErr(CD1)  1.763  RecErr(Real)  1.852
+
+Epoch  1750
+Train  KL  3.288117  LogLKH  -5.927  SumProb  0.039  RecErr(CD1)  1.937  RecErr(Real)  1.795
+
+Epoch  1800
+Train  KL  3.267742  LogLKH  -5.907  SumProb  0.040  RecErr(CD1)  1.504  RecErr(Real)  1.770
+
+Epoch  1850
+Train  KL  3.246681  LogLKH  -5.886  SumProb  0.041  RecErr(CD1)  1.532  RecErr(Real)  1.529
+
+Epoch  1900
+Train  KL  3.225624  LogLKH  -5.865  SumProb  0.042  RecErr(CD1)  1.801  RecErr(Real)  1.531
+
+Epoch  1950
+Train  KL  3.203832  LogLKH  -5.843  SumProb  0.043  RecErr(CD1)  1.564  RecErr(Real)  1.653
+
+Epoch  2000
+Train  KL  3.182007  LogLKH  -5.821  SumProb  0.044  RecErr(CD1)  1.688  RecErr(Real)  1.669
+
+Epoch  2050
+Train  KL  3.160075  LogLKH  -5.799  SumProb  0.045  RecErr(CD1)  1.574  RecErr(Real)  1.715
+
+Epoch  2100
+Train  KL  3.137532  LogLKH  -5.777  SumProb  0.047  RecErr(CD1)  1.890  RecErr(Real)  1.536
+
+Epoch  2150
+Train  KL  3.114588  LogLKH  -5.754  SumProb  0.048  RecErr(CD1)  1.726  RecErr(Real)  1.531
+
+Epoch  2200
+Train  KL  3.092642  LogLKH  -5.732  SumProb  0.049  RecErr(CD1)  1.600  RecErr(Real)  1.181
+
+Epoch  2250
+Train  KL  3.069826  LogLKH  -5.709  SumProb  0.051  RecErr(CD1)  1.461  RecErr(Real)  1.778
+
+Epoch  2300
+Train  KL  3.047104  LogLKH  -5.686  SumProb  0.052  RecErr(CD1)  1.404  RecErr(Real)  1.436
+
+Epoch  2350
+Train  KL  3.024227  LogLKH  -5.663  SumProb  0.053  RecErr(CD1)  1.497  RecErr(Real)  1.659
+
+Epoch  2400
+Train  KL  3.001166  LogLKH  -5.640  SumProb  0.055  RecErr(CD1)  1.392  RecErr(Real)  1.476
+
+Epoch  2450
+Train  KL  2.978137  LogLKH  -5.617  SumProb  0.056  RecErr(CD1)  1.396  RecErr(Real)  1.374
+
+Epoch  2500
+Train  KL  2.955601  LogLKH  -5.595  SumProb  0.058  RecErr(CD1)  1.192  RecErr(Real)  1.359
+
+Epoch  2550
+Train  KL  2.932572  LogLKH  -5.572  SumProb  0.059  RecErr(CD1)  1.439  RecErr(Real)  1.389
+
+Epoch  2600
+Train  KL  2.909911  LogLKH  -5.549  SumProb  0.061  RecErr(CD1)  1.319  RecErr(Real)  1.314
+
+Epoch  2650
+Train  KL  2.887398  LogLKH  -5.526  SumProb  0.062  RecErr(CD1)  1.394  RecErr(Real)  1.209
+
+Epoch  2700
+Train  KL  2.864751  LogLKH  -5.504  SumProb  0.064  RecErr(CD1)  1.153  RecErr(Real)  1.183
+
+Epoch  2750
+Train  KL  2.842890  LogLKH  -5.482  SumProb  0.065  RecErr(CD1)  1.119  RecErr(Real)  1.058
+
+Epoch  2800
+Train  KL  2.820624  LogLKH  -5.460  SumProb  0.067  RecErr(CD1)  1.305  RecErr(Real)  1.288
+
+Epoch  2850
+Train  KL  2.798632  LogLKH  -5.438  SumProb  0.068  RecErr(CD1)  1.105  RecErr(Real)  1.045
+
+Epoch  2900
+Train  KL  2.776578  LogLKH  -5.416  SumProb  0.070  RecErr(CD1)  1.171  RecErr(Real)  0.925
+
+Epoch  2950
+Train  KL  2.755900  LogLKH  -5.395  SumProb  0.072  RecErr(CD1)  1.235  RecErr(Real)  1.202
+
+Epoch  3000
+Train  KL  2.734368  LogLKH  -5.373  SumProb  0.073  RecErr(CD1)  1.187  RecErr(Real)  1.243
+
+Epoch  3050
+Train  KL  2.713783  LogLKH  -5.353  SumProb  0.075  RecErr(CD1)  0.967  RecErr(Real)  1.156
+
+Epoch  3100
+Train  KL  2.691943  LogLKH  -5.331  SumProb  0.077  RecErr(CD1)  1.108  RecErr(Real)  1.191
+
+Epoch  3150
+Train  KL  2.670735  LogLKH  -5.310  SumProb  0.078  RecErr(CD1)  1.241  RecErr(Real)  1.150
+
+Epoch  3200
+Train  KL  2.649386  LogLKH  -5.288  SumProb  0.080  RecErr(CD1)  1.136  RecErr(Real)  1.157
+
+Epoch  3250
+Train  KL  2.629031  LogLKH  -5.268  SumProb  0.082  RecErr(CD1)  0.852  RecErr(Real)  1.013
+
+Epoch  3300
+Train  KL  2.609180  LogLKH  -5.248  SumProb  0.084  RecErr(CD1)  0.741  RecErr(Real)  0.989
+
+Epoch  3350
+Train  KL  2.590768  LogLKH  -5.230  SumProb  0.086  RecErr(CD1)  1.030  RecErr(Real)  0.808
+
+Epoch  3400
+Train  KL  2.568150  LogLKH  -5.207  SumProb  0.088  RecErr(CD1)  1.018  RecErr(Real)  1.101
+
+Epoch  3450
+Train  KL  2.546216  LogLKH  -5.185  SumProb  0.090  RecErr(CD1)  0.902  RecErr(Real)  0.810
+
+Epoch  3500
+Train  KL  2.526293  LogLKH  -5.165  SumProb  0.092  RecErr(CD1)  1.042  RecErr(Real)  0.997
+
+Epoch  3550
+Train  KL  2.506349  LogLKH  -5.145  SumProb  0.094  RecErr(CD1)  0.928  RecErr(Real)  0.908
+
+Epoch  3600
+Train  KL  2.487271  LogLKH  -5.126  SumProb  0.096  RecErr(CD1)  0.865  RecErr(Real)  1.088
+
+Epoch  3650
+Train  KL  2.466906  LogLKH  -5.106  SumProb  0.098  RecErr(CD1)  1.290  RecErr(Real)  0.794
+
+Epoch  3700
+Train  KL  2.446864  LogLKH  -5.086  SumProb  0.100  RecErr(CD1)  0.817  RecErr(Real)  0.737
+
+Epoch  3750
+Train  KL  2.425902  LogLKH  -5.065  SumProb  0.102  RecErr(CD1)  0.707  RecErr(Real)  0.901
+
+Epoch  3800
+Train  KL  2.405871  LogLKH  -5.045  SumProb  0.104  RecErr(CD1)  0.706  RecErr(Real)  1.110
+
+Epoch  3850
+Train  KL  2.387360  LogLKH  -5.026  SumProb  0.106  RecErr(CD1)  0.893  RecErr(Real)  1.143
+
+Epoch  3900
+Train  KL  2.368320  LogLKH  -5.007  SumProb  0.108  RecErr(CD1)  0.893  RecErr(Real)  0.851
+
+Epoch  3950
+Train  KL  2.349402  LogLKH  -4.988  SumProb  0.110  RecErr(CD1)  0.627  RecErr(Real)  0.900
+
+Epoch  4000
+Train  KL  2.331655  LogLKH  -4.971  SumProb  0.113  RecErr(CD1)  0.794  RecErr(Real)  0.738
+
+Epoch  4050
+Train  KL  2.313018  LogLKH  -4.952  SumProb  0.115  RecErr(CD1)  0.749  RecErr(Real)  0.950
+
+Epoch  4100
+Train  KL  2.295106  LogLKH  -4.934  SumProb  0.117  RecErr(CD1)  0.626  RecErr(Real)  0.939
+
+Epoch  4150
+Train  KL  2.275588  LogLKH  -4.915  SumProb  0.119  RecErr(CD1)  0.963  RecErr(Real)  0.569
+
+Epoch  4200
+Train  KL  2.258510  LogLKH  -4.898  SumProb  0.121  RecErr(CD1)  0.721  RecErr(Real)  0.950
+
+Epoch  4250
+Train  KL  2.242843  LogLKH  -4.882  SumProb  0.124  RecErr(CD1)  0.503  RecErr(Real)  0.806
+
+Epoch  4300
+Train  KL  2.226641  LogLKH  -4.866  SumProb  0.126  RecErr(CD1)  0.566  RecErr(Real)  0.696
+
+Epoch  4350
+Train  KL  2.206672  LogLKH  -4.846  SumProb  0.128  RecErr(CD1)  0.824  RecErr(Real)  1.101
+
+Epoch  4400
+Train  KL  2.187987  LogLKH  -4.827  SumProb  0.130  RecErr(CD1)  0.734  RecErr(Real)  0.628
+
+Epoch  4450
+Train  KL  2.171564  LogLKH  -4.811  SumProb  0.132  RecErr(CD1)  0.543  RecErr(Real)  0.620
+
+Epoch  4500
+Train  KL  2.153358  LogLKH  -4.792  SumProb  0.134  RecErr(CD1)  0.579  RecErr(Real)  0.566
+
+Epoch  4550
+Train  KL  2.135918  LogLKH  -4.775  SumProb  0.136  RecErr(CD1)  0.543  RecErr(Real)  0.325
+
+Epoch  4600
+Train  KL  2.121087  LogLKH  -4.760  SumProb  0.139  RecErr(CD1)  0.698  RecErr(Real)  0.509
+
+Epoch  4650
+Train  KL  2.103239  LogLKH  -4.742  SumProb  0.140  RecErr(CD1)  0.694  RecErr(Real)  0.751
+
+Epoch  4700
+Train  KL  2.088963  LogLKH  -4.728  SumProb  0.142  RecErr(CD1)  0.484  RecErr(Real)  0.789
+
+Epoch  4750
+Train  KL  2.073824  LogLKH  -4.713  SumProb  0.145  RecErr(CD1)  0.399  RecErr(Real)  0.473
+
+Epoch  4800
+Train  KL  2.056211  LogLKH  -4.695  SumProb  0.147  RecErr(CD1)  0.376  RecErr(Real)  0.891
+
+Epoch  4850
+Train  KL  2.039988  LogLKH  -4.679  SumProb  0.149  RecErr(CD1)  0.529  RecErr(Real)  0.652
+
+Epoch  4900
+Train  KL  2.023552  LogLKH  -4.663  SumProb  0.151  RecErr(CD1)  0.550  RecErr(Real)  0.703
+
+Epoch  4950
+Train  KL  2.005261  LogLKH  -4.644  SumProb  0.153  RecErr(CD1)  0.792  RecErr(Real)  0.622
+
+Epoch  5000
+Train  KL  1.995137  LogLKH  -4.634  SumProb  0.155  RecErr(CD1)  0.689  RecErr(Real)  0.654
+
+Epoch  5050
+Train  KL  1.980800  LogLKH  -4.620  SumProb  0.156  RecErr(CD1)  0.519  RecErr(Real)  0.517
+
+Epoch  5100
+Train  KL  1.964673  LogLKH  -4.604  SumProb  0.158  RecErr(CD1)  0.587  RecErr(Real)  0.593
+
+Epoch  5150
+Train  KL  1.947638  LogLKH  -4.587  SumProb  0.160  RecErr(CD1)  0.598  RecErr(Real)  0.647
+
+Epoch  5200
+Train  KL  1.931115  LogLKH  -4.570  SumProb  0.162  RecErr(CD1)  0.384  RecErr(Real)  0.493
+
+Epoch  5250
+Train  KL  1.919594  LogLKH  -4.559  SumProb  0.164  RecErr(CD1)  0.504  RecErr(Real)  0.448
+
+Epoch  5300
+Train  KL  1.904767  LogLKH  -4.544  SumProb  0.166  RecErr(CD1)  0.347  RecErr(Real)  0.547
+
+Epoch  5350
+Train  KL  1.894453  LogLKH  -4.534  SumProb  0.168  RecErr(CD1)  0.529  RecErr(Real)  0.375
+
+Epoch  5400
+Train  KL  1.882110  LogLKH  -4.521  SumProb  0.170  RecErr(CD1)  0.644  RecErr(Real)  0.561
+
+Epoch  5450
+Train  KL  1.868515  LogLKH  -4.508  SumProb  0.172  RecErr(CD1)  0.387  RecErr(Real)  0.761
+
+Epoch  5500
+Train  KL  1.851429  LogLKH  -4.490  SumProb  0.173  RecErr(CD1)  0.386  RecErr(Real)  0.346
+
+Epoch  5550
+Train  KL  1.835588  LogLKH  -4.475  SumProb  0.175  RecErr(CD1)  0.468  RecErr(Real)  0.587
+
+Epoch  5600
+Train  KL  1.824045  LogLKH  -4.463  SumProb  0.177  RecErr(CD1)  0.380  RecErr(Real)  0.196
+
+Epoch  5650
+Train  KL  1.812603  LogLKH  -4.452  SumProb  0.179  RecErr(CD1)  0.510  RecErr(Real)  0.360
+
+Epoch  5700
+Train  KL  1.792758  LogLKH  -4.432  SumProb  0.181  RecErr(CD1)  0.492  RecErr(Real)  0.507
+
+Epoch  5750
+Train  KL  1.778699  LogLKH  -4.418  SumProb  0.183  RecErr(CD1)  0.314  RecErr(Real)  0.393
+
+Epoch  5800
+Train  KL  1.770742  LogLKH  -4.410  SumProb  0.185  RecErr(CD1)  0.326  RecErr(Real)  0.380
+
+Epoch  5850
+Train  KL  1.753166  LogLKH  -4.392  SumProb  0.187  RecErr(CD1)  0.336  RecErr(Real)  0.205
+
+Epoch  5900
+Train  KL  1.738633  LogLKH  -4.378  SumProb  0.189  RecErr(CD1)  0.577  RecErr(Real)  0.307
+
+Epoch  5950
+Train  KL  1.723569  LogLKH  -4.363  SumProb  0.191  RecErr(CD1)  0.554  RecErr(Real)  0.478
+
+Epoch  6000
+Train  KL  1.714562  LogLKH  -4.354  SumProb  0.193  RecErr(CD1)  0.373  RecErr(Real)  0.599
+
+Epoch  6050
+Train  KL  1.702428  LogLKH  -4.341  SumProb  0.195  RecErr(CD1)  0.520  RecErr(Real)  0.445
+
+Epoch  6100
+Train  KL  1.687902  LogLKH  -4.327  SumProb  0.197  RecErr(CD1)  0.392  RecErr(Real)  0.520
+
+Epoch  6150
+Train  KL  1.678631  LogLKH  -4.318  SumProb  0.199  RecErr(CD1)  0.649  RecErr(Real)  0.129
+
+Epoch  6200
+Train  KL  1.666900  LogLKH  -4.306  SumProb  0.201  RecErr(CD1)  0.258  RecErr(Real)  0.376
+
+Epoch  6250
+Train  KL  1.662220  LogLKH  -4.301  SumProb  0.203  RecErr(CD1)  0.331  RecErr(Real)  0.469
+
+Epoch  6300
+Train  KL  1.644353  LogLKH  -4.283  SumProb  0.205  RecErr(CD1)  0.315  RecErr(Real)  0.287
+
+Epoch  6350
+Train  KL  1.633124  LogLKH  -4.272  SumProb  0.207  RecErr(CD1)  0.560  RecErr(Real)  0.391
+
+Epoch  6400
+Train  KL  1.622572  LogLKH  -4.262  SumProb  0.209  RecErr(CD1)  0.376  RecErr(Real)  0.248
+
+Epoch  6450
+Train  KL  1.610083  LogLKH  -4.249  SumProb  0.211  RecErr(CD1)  0.208  RecErr(Real)  0.259
+
+Epoch  6500
+Train  KL  1.604704  LogLKH  -4.244  SumProb  0.213  RecErr(CD1)  0.423  RecErr(Real)  0.498
+
+Epoch  6550
+Train  KL  1.590247  LogLKH  -4.229  SumProb  0.215  RecErr(CD1)  0.490  RecErr(Real)  0.472
+
+Epoch  6600
+Train  KL  1.577648  LogLKH  -4.217  SumProb  0.217  RecErr(CD1)  0.395  RecErr(Real)  0.120
+
+Epoch  6650
+Train  KL  1.571685  LogLKH  -4.211  SumProb  0.219  RecErr(CD1)  0.313  RecErr(Real)  0.328
+
+Epoch  6700
+Train  KL  1.552908  LogLKH  -4.192  SumProb  0.221  RecErr(CD1)  0.244  RecErr(Real)  0.518
+
+Epoch  6750
+Train  KL  1.539081  LogLKH  -4.178  SumProb  0.224  RecErr(CD1)  0.514  RecErr(Real)  0.369
+
+Epoch  6800
+Train  KL  1.531091  LogLKH  -4.170  SumProb  0.225  RecErr(CD1)  0.384  RecErr(Real)  0.363
+
+Epoch  6850
+Train  KL  1.524235  LogLKH  -4.163  SumProb  0.227  RecErr(CD1)  0.463  RecErr(Real)  0.255
+
+Epoch  6900
+Train  KL  1.515869  LogLKH  -4.155  SumProb  0.230  RecErr(CD1)  0.392  RecErr(Real)  0.408
+
+Epoch  6950
+Train  KL  1.501065  LogLKH  -4.140  SumProb  0.232  RecErr(CD1)  0.542  RecErr(Real)  0.491
+
+Epoch  7000
+Train  KL  1.494711  LogLKH  -4.134  SumProb  0.234  RecErr(CD1)  0.173  RecErr(Real)  0.204
+
+Epoch  7050
+Train  KL  1.490835  LogLKH  -4.130  SumProb  0.236  RecErr(CD1)  0.467  RecErr(Real)  0.156
+
+Epoch  7100
+Train  KL  1.478442  LogLKH  -4.117  SumProb  0.238  RecErr(CD1)  0.346  RecErr(Real)  0.218
+
+Epoch  7150
+Train  KL  1.464103  LogLKH  -4.103  SumProb  0.240  RecErr(CD1)  0.275  RecErr(Real)  0.303
+
+Epoch  7200
+Train  KL  1.457345  LogLKH  -4.096  SumProb  0.241  RecErr(CD1)  0.295  RecErr(Real)  0.283
+
+Epoch  7250
+Train  KL  1.449036  LogLKH  -4.088  SumProb  0.244  RecErr(CD1)  0.438  RecErr(Real)  0.466
+
+Epoch  7300
+Train  KL  1.442078  LogLKH  -4.081  SumProb  0.247  RecErr(CD1)  0.216  RecErr(Real)  0.234
+
+Epoch  7350
+Train  KL  1.431560  LogLKH  -4.071  SumProb  0.249  RecErr(CD1)  0.302  RecErr(Real)  0.397
+
+Epoch  7400
+Train  KL  1.421088  LogLKH  -4.060  SumProb  0.251  RecErr(CD1)  0.200  RecErr(Real)  0.208
+
+Epoch  7450
+Train  KL  1.410976  LogLKH  -4.050  SumProb  0.253  RecErr(CD1)  0.186  RecErr(Real)  0.254
+
+Epoch  7500
+Train  KL  1.402193  LogLKH  -4.041  SumProb  0.255  RecErr(CD1)  0.230  RecErr(Real)  0.227
+
+Epoch  7550
+Train  KL  1.393733  LogLKH  -4.033  SumProb  0.258  RecErr(CD1)  0.249  RecErr(Real)  0.337
+
+Epoch  7600
+Train  KL  1.380545  LogLKH  -4.020  SumProb  0.260  RecErr(CD1)  0.421  RecErr(Real)  0.234
+
+Epoch  7650
+Train  KL  1.379366  LogLKH  -4.018  SumProb  0.262  RecErr(CD1)  0.363  RecErr(Real)  0.224
+
+Epoch  7700
+Train  KL  1.368589  LogLKH  -4.008  SumProb  0.264  RecErr(CD1)  0.188  RecErr(Real)  0.268
+
+Epoch  7750
+Train  KL  1.358149  LogLKH  -3.997  SumProb  0.266  RecErr(CD1)  0.302  RecErr(Real)  0.269
+
+Epoch  7800
+Train  KL  1.348918  LogLKH  -3.988  SumProb  0.268  RecErr(CD1)  0.236  RecErr(Real)  0.288
+
+Epoch  7850
+Train  KL  1.342772  LogLKH  -3.982  SumProb  0.270  RecErr(CD1)  0.387  RecErr(Real)  0.200
+
+Epoch  7900
+Train  KL  1.335951  LogLKH  -3.975  SumProb  0.272  RecErr(CD1)  0.376  RecErr(Real)  0.457
+
+Epoch  7950
+Train  KL  1.332499  LogLKH  -3.972  SumProb  0.274  RecErr(CD1)  0.151  RecErr(Real)  0.274
+
+Epoch  8000
+Train  KL  1.323859  LogLKH  -3.963  SumProb  0.277  RecErr(CD1)  0.331  RecErr(Real)  0.340
+
+Epoch  8050
+Train  KL  1.304866  LogLKH  -3.944  SumProb  0.279  RecErr(CD1)  0.209  RecErr(Real)  0.272
+
+Epoch  8100
+Train  KL  1.309728  LogLKH  -3.949  SumProb  0.280  RecErr(CD1)  0.243  RecErr(Real)  0.124
+
+Epoch  8150
+Train  KL  1.299271  LogLKH  -3.938  SumProb  0.283  RecErr(CD1)  0.180  RecErr(Real)  0.170
+
+Epoch  8200
+Train  KL  1.287744  LogLKH  -3.927  SumProb  0.284  RecErr(CD1)  0.321  RecErr(Real)  0.262
+
+Epoch  8250
+Train  KL  1.281401  LogLKH  -3.920  SumProb  0.286  RecErr(CD1)  0.278  RecErr(Real)  0.150
+
+Epoch  8300
+Train  KL  1.273210  LogLKH  -3.912  SumProb  0.288  RecErr(CD1)  0.150  RecErr(Real)  0.199
+
+Epoch  8350
+Train  KL  1.269148  LogLKH  -3.908  SumProb  0.291  RecErr(CD1)  0.228  RecErr(Real)  0.198
+
+Epoch  8400
+Train  KL  1.256550  LogLKH  -3.896  SumProb  0.292  RecErr(CD1)  0.240  RecErr(Real)  0.241
+
+Epoch  8450
+Train  KL  1.255608  LogLKH  -3.895  SumProb  0.294  RecErr(CD1)  0.218  RecErr(Real)  0.252
+
+Epoch  8500
+Train  KL  1.255035  LogLKH  -3.894  SumProb  0.295  RecErr(CD1)  0.296  RecErr(Real)  0.225
+
+Epoch  8550
+Train  KL  1.246570  LogLKH  -3.886  SumProb  0.298  RecErr(CD1)  0.208  RecErr(Real)  0.190
+
+Epoch  8600
+Train  KL  1.237634  LogLKH  -3.877  SumProb  0.300  RecErr(CD1)  0.206  RecErr(Real)  0.278
+
+Epoch  8650
+Train  KL  1.230874  LogLKH  -3.870  SumProb  0.301  RecErr(CD1)  0.090  RecErr(Real)  0.294
+
+Epoch  8700
+Train  KL  1.229201  LogLKH  -3.868  SumProb  0.302  RecErr(CD1)  0.148  RecErr(Real)  0.298
+
+Epoch  8750
+Train  KL  1.218808  LogLKH  -3.858  SumProb  0.305  RecErr(CD1)  0.200  RecErr(Real)  0.084
+
+Epoch  8800
+Train  KL  1.212676  LogLKH  -3.852  SumProb  0.307  RecErr(CD1)  0.147  RecErr(Real)  0.112
+
+Epoch  8850
+Train  KL  1.205223  LogLKH  -3.844  SumProb  0.308  RecErr(CD1)  0.542  RecErr(Real)  0.140
+
+Epoch  8900
+Train  KL  1.195639  LogLKH  -3.835  SumProb  0.311  RecErr(CD1)  0.211  RecErr(Real)  0.157
+
+Epoch  8950
+Train  KL  1.190639  LogLKH  -3.830  SumProb  0.313  RecErr(CD1)  0.143  RecErr(Real)  0.179
+
+Epoch  9000
+Train  KL  1.183668  LogLKH  -3.823  SumProb  0.316  RecErr(CD1)  0.188  RecErr(Real)  0.173
+
+Epoch  9050
+Train  KL  1.184432  LogLKH  -3.823  SumProb  0.317  RecErr(CD1)  0.221  RecErr(Real)  0.227
+
+Epoch  9100
+Train  KL  1.180089  LogLKH  -3.819  SumProb  0.318  RecErr(CD1)  0.220  RecErr(Real)  0.201
+
+Epoch  9150
+Train  KL  1.167612  LogLKH  -3.807  SumProb  0.321  RecErr(CD1)  0.148  RecErr(Real)  0.253
+
+Epoch  9200
+Train  KL  1.170003  LogLKH  -3.809  SumProb  0.322  RecErr(CD1)  0.165  RecErr(Real)  0.219
+
+Epoch  9250
+Train  KL  1.152584  LogLKH  -3.792  SumProb  0.325  RecErr(CD1)  0.350  RecErr(Real)  0.186
+
+Epoch  9300
+Train  KL  1.149637  LogLKH  -3.789  SumProb  0.327  RecErr(CD1)  0.110  RecErr(Real)  0.198
+
+Epoch  9350
+Train  KL  1.147606  LogLKH  -3.787  SumProb  0.327  RecErr(CD1)  0.263  RecErr(Real)  0.246
+
+Epoch  9400
+Train  KL  1.140250  LogLKH  -3.779  SumProb  0.329  RecErr(CD1)  0.171  RecErr(Real)  0.079
+
+Epoch  9450
+Train  KL  1.132041  LogLKH  -3.771  SumProb  0.332  RecErr(CD1)  0.240  RecErr(Real)  0.110
+
+Epoch  9500
+Train  KL  1.125243  LogLKH  -3.764  SumProb  0.333  RecErr(CD1)  0.262  RecErr(Real)  0.213
+
+Epoch  9550
+Train  KL  1.121515  LogLKH  -3.761  SumProb  0.334  RecErr(CD1)  0.178  RecErr(Real)  0.329
+
+Epoch  9600
+Train  KL  1.115833  LogLKH  -3.755  SumProb  0.337  RecErr(CD1)  0.274  RecErr(Real)  0.163
+
+Epoch  9650
+Train  KL  1.114553  LogLKH  -3.754  SumProb  0.338  RecErr(CD1)  0.179  RecErr(Real)  0.096
+
+Epoch  9700
+Train  KL  1.109001  LogLKH  -3.748  SumProb  0.340  RecErr(CD1)  0.329  RecErr(Real)  0.246
+
+Epoch  9750
+Train  KL  1.099424  LogLKH  -3.738  SumProb  0.342  RecErr(CD1)  0.253  RecErr(Real)  0.304
+
+Epoch  9800
+Train  KL  1.096444  LogLKH  -3.736  SumProb  0.344  RecErr(CD1)  0.120  RecErr(Real)  0.223
+
+Epoch  9850
+Train  KL  1.091987  LogLKH  -3.731  SumProb  0.345  RecErr(CD1)  0.214  RecErr(Real)  0.135
+
+Epoch  9900
+Train  KL  1.084185  LogLKH  -3.723  SumProb  0.347  RecErr(CD1)  0.140  RecErr(Real)  0.088
+
+Epoch  9950
+Train  KL  1.094217  LogLKH  -3.733  SumProb  0.348  RecErr(CD1)  0.132  RecErr(Real)  0.209
+
+Epoch 10000
+Train  KL  1.077330  LogLKH  -3.716  SumProb  0.350  RecErr(CD1)  0.171  RecErr(Real)  0.159
+
+Epoch 10050
+Train  KL  1.070307  LogLKH  -3.709  SumProb  0.353  RecErr(CD1)  0.229  RecErr(Real)  0.180
+
+Epoch 10100
+Train  KL  1.062776  LogLKH  -3.702  SumProb  0.354  RecErr(CD1)  0.160  RecErr(Real)  0.125
+
+Epoch 10150
+Train  KL  1.059175  LogLKH  -3.698  SumProb  0.355  RecErr(CD1)  0.153  RecErr(Real)  0.199
+
+Epoch 10200
+Train  KL  1.057492  LogLKH  -3.697  SumProb  0.357  RecErr(CD1)  0.129  RecErr(Real)  0.119
+
+Epoch 10250
+Train  KL  1.051726  LogLKH  -3.691  SumProb  0.358  RecErr(CD1)  0.112  RecErr(Real)  0.260
+
+Epoch 10300
+Train  KL  1.046887  LogLKH  -3.686  SumProb  0.361  RecErr(CD1)  0.143  RecErr(Real)  0.126
+
+Epoch 10350
+Train  KL  1.044700  LogLKH  -3.684  SumProb  0.363  RecErr(CD1)  0.284  RecErr(Real)  0.172
+
+Epoch 10400
+Train  KL  1.036363  LogLKH  -3.675  SumProb  0.364  RecErr(CD1)  0.193  RecErr(Real)  0.272
+
+Epoch 10450
+Train  KL  1.034635  LogLKH  -3.674  SumProb  0.365  RecErr(CD1)  0.122  RecErr(Real)  0.283
+
+Epoch 10500
+Train  KL  1.027480  LogLKH  -3.667  SumProb  0.367  RecErr(CD1)  0.315  RecErr(Real)  0.055
+
+Epoch 10550
+Train  KL  1.029022  LogLKH  -3.668  SumProb  0.368  RecErr(CD1)  0.121  RecErr(Real)  0.223
+
+Epoch 10600
+Train  KL  1.025706  LogLKH  -3.665  SumProb  0.370  RecErr(CD1)  0.172  RecErr(Real)  0.130
+
+Epoch 10650
+Train  KL  1.019495  LogLKH  -3.659  SumProb  0.372  RecErr(CD1)  0.208  RecErr(Real)  0.202
+
+Epoch 10700
+Train  KL  1.005385  LogLKH  -3.644  SumProb  0.375  RecErr(CD1)  0.159  RecErr(Real)  0.325
+
+Epoch 10750
+Train  KL  1.010085  LogLKH  -3.649  SumProb  0.375  RecErr(CD1)  0.179  RecErr(Real)  0.188
+
+Epoch 10800
+Train  KL  0.999539  LogLKH  -3.639  SumProb  0.377  RecErr(CD1)  0.204  RecErr(Real)  0.109
+
+Epoch 10850
+Train  KL  0.994224  LogLKH  -3.633  SumProb  0.379  RecErr(CD1)  0.156  RecErr(Real)  0.161
+
+Epoch 10900
+Train  KL  0.997335  LogLKH  -3.636  SumProb  0.380  RecErr(CD1)  0.200  RecErr(Real)  0.115
+
+Epoch 10950
+Train  KL  0.982835  LogLKH  -3.622  SumProb  0.382  RecErr(CD1)  0.128  RecErr(Real)  0.211
+
+Epoch 11000
+Train  KL  0.982018  LogLKH  -3.621  SumProb  0.383  RecErr(CD1)  0.235  RecErr(Real)  0.053
+
+Epoch 11050
+Train  KL  0.985454  LogLKH  -3.625  SumProb  0.384  RecErr(CD1)  0.129  RecErr(Real)  0.121
+
+Epoch 11100
+Train  KL  0.970713  LogLKH  -3.610  SumProb  0.386  RecErr(CD1)  0.170  RecErr(Real)  0.159
+
+Epoch 11150
+Train  KL  0.968321  LogLKH  -3.607  SumProb  0.388  RecErr(CD1)  0.404  RecErr(Real)  0.046
+
+Epoch 11200
+Train  KL  0.966305  LogLKH  -3.605  SumProb  0.389  RecErr(CD1)  0.120  RecErr(Real)  0.277
+
+Epoch 11250
+Train  KL  0.962301  LogLKH  -3.601  SumProb  0.392  RecErr(CD1)  0.111  RecErr(Real)  0.203
+
+Epoch 11300
+Train  KL  0.947059  LogLKH  -3.586  SumProb  0.393  RecErr(CD1)  0.137  RecErr(Real)  0.288
+
+Epoch 11350
+Train  KL  0.966374  LogLKH  -3.605  SumProb  0.394  RecErr(CD1)  0.134  RecErr(Real)  0.228
+
+Epoch 11400
+Train  KL  0.952731  LogLKH  -3.592  SumProb  0.395  RecErr(CD1)  0.068  RecErr(Real)  0.136
+
+Epoch 11450
+Train  KL  0.941750  LogLKH  -3.581  SumProb  0.397  RecErr(CD1)  0.112  RecErr(Real)  0.097
+
+Epoch 11500
+Train  KL  0.947457  LogLKH  -3.587  SumProb  0.399  RecErr(CD1)  0.191  RecErr(Real)  0.060
+
+Epoch 11550
+Train  KL  0.933958  LogLKH  -3.573  SumProb  0.401  RecErr(CD1)  0.048  RecErr(Real)  0.073
+
+Epoch 11600
+Train  KL  0.930338  LogLKH  -3.569  SumProb  0.402  RecErr(CD1)  0.106  RecErr(Real)  0.260
+
+Epoch 11650
+Train  KL  0.936425  LogLKH  -3.575  SumProb  0.402  RecErr(CD1)  0.323  RecErr(Real)  0.127
+
+Epoch 11700
+Train  KL  0.933623  LogLKH  -3.573  SumProb  0.404  RecErr(CD1)  0.103  RecErr(Real)  0.095
+
+Epoch 11750
+Train  KL  0.927280  LogLKH  -3.566  SumProb  0.406  RecErr(CD1)  0.133  RecErr(Real)  0.099
+
+Epoch 11800
+Train  KL  0.929621  LogLKH  -3.569  SumProb  0.407  RecErr(CD1)  0.125  RecErr(Real)  0.512
+
+Epoch 11850
+Train  KL  0.925471  LogLKH  -3.565  SumProb  0.409  RecErr(CD1)  0.189  RecErr(Real)  0.165
+
+Epoch 11900
+Train  KL  0.926639  LogLKH  -3.566  SumProb  0.410  RecErr(CD1)  0.215  RecErr(Real)  0.132
+
+Epoch 11950
+Train  KL  0.909858  LogLKH  -3.549  SumProb  0.411  RecErr(CD1)  0.127  RecErr(Real)  0.133
+
+Epoch 12000
+Train  KL  0.915134  LogLKH  -3.554  SumProb  0.412  RecErr(CD1)  0.072  RecErr(Real)  0.061
+
+Epoch 12050
+Train  KL  0.902669  LogLKH  -3.542  SumProb  0.414  RecErr(CD1)  0.190  RecErr(Real)  0.366
+
+Epoch 12100
+Train  KL  0.904310  LogLKH  -3.543  SumProb  0.416  RecErr(CD1)  0.207  RecErr(Real)  0.082
+
+Epoch 12150
+Train  KL  0.901898  LogLKH  -3.541  SumProb  0.416  RecErr(CD1)  0.090  RecErr(Real)  0.291
+
+Epoch 12200
+Train  KL  0.902178  LogLKH  -3.541  SumProb  0.418  RecErr(CD1)  0.207  RecErr(Real)  0.159
+
+Epoch 12250
+Train  KL  0.896827  LogLKH  -3.536  SumProb  0.420  RecErr(CD1)  0.118  RecErr(Real)  0.112
+
+Epoch 12300
+Train  KL  0.888260  LogLKH  -3.527  SumProb  0.421  RecErr(CD1)  0.147  RecErr(Real)  0.189
+
+Epoch 12350
+Train  KL  0.881015  LogLKH  -3.520  SumProb  0.423  RecErr(CD1)  0.054  RecErr(Real)  0.315
+
+Epoch 12400
+Train  KL  0.877355  LogLKH  -3.516  SumProb  0.426  RecErr(CD1)  0.150  RecErr(Real)  0.107
+
+Epoch 12450
+Train  KL  0.880333  LogLKH  -3.519  SumProb  0.426  RecErr(CD1)  0.206  RecErr(Real)  0.039
+
+Epoch 12500
+Train  KL  0.873351  LogLKH  -3.512  SumProb  0.427  RecErr(CD1)  0.176  RecErr(Real)  0.180
+
+Epoch 12550
+Train  KL  0.866228  LogLKH  -3.505  SumProb  0.429  RecErr(CD1)  0.054  RecErr(Real)  0.099
+
+Epoch 12600
+Train  KL  0.875372  LogLKH  -3.514  SumProb  0.429  RecErr(CD1)  0.106  RecErr(Real)  0.041
+
+Epoch 12650
+Train  KL  0.862080  LogLKH  -3.501  SumProb  0.432  RecErr(CD1)  0.080  RecErr(Real)  0.059
+
+Epoch 12700
+Train  KL  0.858967  LogLKH  -3.498  SumProb  0.433  RecErr(CD1)  0.167  RecErr(Real)  0.123
+
+Epoch 12750
+Train  KL  0.871063  LogLKH  -3.510  SumProb  0.434  RecErr(CD1)  0.179  RecErr(Real)  0.160
+
+Epoch 12800
+Train  KL  0.860007  LogLKH  -3.499  SumProb  0.435  RecErr(CD1)  0.251  RecErr(Real)  0.147
+
+Epoch 12850
+Train  KL  0.864303  LogLKH  -3.503  SumProb  0.436  RecErr(CD1)  0.062  RecErr(Real)  0.106
+
+Epoch 12900
+Train  KL  0.850801  LogLKH  -3.490  SumProb  0.439  RecErr(CD1)  0.123  RecErr(Real)  0.175
+
+Epoch 12950
+Train  KL  0.843698  LogLKH  -3.483  SumProb  0.440  RecErr(CD1)  0.080  RecErr(Real)  0.041
+
+Epoch 13000
+Train  KL  0.836513  LogLKH  -3.476  SumProb  0.441  RecErr(CD1)  0.102  RecErr(Real)  0.082
+
+Epoch 13050
+Train  KL  0.842612  LogLKH  -3.482  SumProb  0.442  RecErr(CD1)  0.099  RecErr(Real)  0.092
+
+Epoch 13100
+Train  KL  0.849315  LogLKH  -3.488  SumProb  0.442  RecErr(CD1)  0.187  RecErr(Real)  0.183
+
+Epoch 13150
+Train  KL  0.835316  LogLKH  -3.474  SumProb  0.445  RecErr(CD1)  0.110  RecErr(Real)  0.046
+
+Epoch 13200
+Train  KL  0.843658  LogLKH  -3.483  SumProb  0.445  RecErr(CD1)  0.153  RecErr(Real)  0.066
+
+Epoch 13250
+Train  KL  0.841320  LogLKH  -3.480  SumProb  0.446  RecErr(CD1)  0.075  RecErr(Real)  0.047
+
+Epoch 13300
+Train  KL  0.823764  LogLKH  -3.463  SumProb  0.449  RecErr(CD1)  0.066  RecErr(Real)  0.141
+
+Epoch 13350
+Train  KL  0.820194  LogLKH  -3.459  SumProb  0.449  RecErr(CD1)  0.178  RecErr(Real)  0.061
+
+Epoch 13400
+Train  KL  0.820096  LogLKH  -3.459  SumProb  0.451  RecErr(CD1)  0.023  RecErr(Real)  0.172
+
+Epoch 13450
+Train  KL  0.820838  LogLKH  -3.460  SumProb  0.451  RecErr(CD1)  0.106  RecErr(Real)  0.242
+
+Epoch 13500
+Train  KL  0.811774  LogLKH  -3.451  SumProb  0.453  RecErr(CD1)  0.078  RecErr(Real)  0.080
+
+Epoch 13550
+Train  KL  0.807621  LogLKH  -3.447  SumProb  0.455  RecErr(CD1)  0.035  RecErr(Real)  0.091
+
+Epoch 13600
+Train  KL  0.810533  LogLKH  -3.450  SumProb  0.456  RecErr(CD1)  0.148  RecErr(Real)  0.121
+
+Epoch 13650
+Train  KL  0.807165  LogLKH  -3.446  SumProb  0.456  RecErr(CD1)  0.119  RecErr(Real)  0.160
+
+Epoch 13700
+Train  KL  0.804899  LogLKH  -3.444  SumProb  0.459  RecErr(CD1)  0.097  RecErr(Real)  0.082
+
+Epoch 13750
+Train  KL  0.802707  LogLKH  -3.442  SumProb  0.459  RecErr(CD1)  0.048  RecErr(Real)  0.130
+
+Epoch 13800
+Train  KL  0.800473  LogLKH  -3.440  SumProb  0.461  RecErr(CD1)  0.260  RecErr(Real)  0.150
+
+Epoch 13850
+Train  KL  0.805216  LogLKH  -3.444  SumProb  0.461  RecErr(CD1)  0.078  RecErr(Real)  0.148
+
+Epoch 13900
+Train  KL  0.797763  LogLKH  -3.437  SumProb  0.463  RecErr(CD1)  0.184  RecErr(Real)  0.087
+
+Epoch 13950
+Train  KL  0.785417  LogLKH  -3.424  SumProb  0.466  RecErr(CD1)  0.135  RecErr(Real)  0.022
+
+Epoch 14000
+Train  KL  0.786321  LogLKH  -3.425  SumProb  0.467  RecErr(CD1)  0.175  RecErr(Real)  0.113
+
+Epoch 14050
+Train  KL  0.778891  LogLKH  -3.418  SumProb  0.469  RecErr(CD1)  0.102  RecErr(Real)  0.209
+
+Epoch 14100
+Train  KL  0.777710  LogLKH  -3.417  SumProb  0.470  RecErr(CD1)  0.065  RecErr(Real)  0.244
+
+Epoch 14150
+Train  KL  0.774600  LogLKH  -3.414  SumProb  0.471  RecErr(CD1)  0.170  RecErr(Real)  0.066
+
+Epoch 14200
+Train  KL  0.767283  LogLKH  -3.406  SumProb  0.472  RecErr(CD1)  0.125  RecErr(Real)  0.045
+
+Epoch 14250
+Train  KL  0.769868  LogLKH  -3.409  SumProb  0.473  RecErr(CD1)  0.053  RecErr(Real)  0.124
+
+Epoch 14300
+Train  KL  0.765463  LogLKH  -3.405  SumProb  0.474  RecErr(CD1)  0.044  RecErr(Real)  0.090
+
+Epoch 14350
+Train  KL  0.761591  LogLKH  -3.401  SumProb  0.475  RecErr(CD1)  0.163  RecErr(Real)  0.071
+
+Epoch 14400
+Train  KL  0.769971  LogLKH  -3.409  SumProb  0.475  RecErr(CD1)  0.042  RecErr(Real)  0.124
+
+Epoch 14450
+Train  KL  0.762163  LogLKH  -3.401  SumProb  0.477  RecErr(CD1)  0.051  RecErr(Real)  0.150
+
+Epoch 14500
+Train  KL  0.756823  LogLKH  -3.396  SumProb  0.478  RecErr(CD1)  0.119  RecErr(Real)  0.042
+
+Epoch 14550
+Train  KL  0.757138  LogLKH  -3.396  SumProb  0.480  RecErr(CD1)  0.045  RecErr(Real)  0.093
+
+Epoch 14600
+Train  KL  0.752440  LogLKH  -3.391  SumProb  0.482  RecErr(CD1)  0.072  RecErr(Real)  0.034
+
+Epoch 14650
+Train  KL  0.756205  LogLKH  -3.395  SumProb  0.483  RecErr(CD1)  0.098  RecErr(Real)  0.052
+
+Epoch 14700
+Train  KL  0.745468  LogLKH  -3.385  SumProb  0.485  RecErr(CD1)  0.047  RecErr(Real)  0.040
+
+Epoch 14750
+Train  KL  0.748356  LogLKH  -3.387  SumProb  0.485  RecErr(CD1)  0.147  RecErr(Real)  0.155
+
+Epoch 14800
+Train  KL  0.743802  LogLKH  -3.383  SumProb  0.486  RecErr(CD1)  0.029  RecErr(Real)  0.056
+
+Epoch 14850
+Train  KL  0.743543  LogLKH  -3.383  SumProb  0.487  RecErr(CD1)  0.110  RecErr(Real)  0.113
+
+Epoch 14900
+Train  KL  0.746649  LogLKH  -3.386  SumProb  0.488  RecErr(CD1)  0.190  RecErr(Real)  0.095
+
+Epoch 14950
+Train  KL  0.729742  LogLKH  -3.369  SumProb  0.491  RecErr(CD1)  0.283  RecErr(Real)  0.018
+
+Epoch 15000
+Train  KL  0.726449  LogLKH  -3.366  SumProb  0.491  RecErr(CD1)  0.116  RecErr(Real)  0.052
+
+Epoch 15050
+Train  KL  0.728226  LogLKH  -3.367  SumProb  0.491  RecErr(CD1)  0.152  RecErr(Real)  0.221
+
+Epoch 15100
+Train  KL  0.726638  LogLKH  -3.366  SumProb  0.493  RecErr(CD1)  0.093  RecErr(Real)  0.230
+
+Epoch 15150
+Train  KL  0.733221  LogLKH  -3.372  SumProb  0.493  RecErr(CD1)  0.069  RecErr(Real)  0.074
+
+Epoch 15200
+Train  KL  0.729214  LogLKH  -3.368  SumProb  0.495  RecErr(CD1)  0.066  RecErr(Real)  0.039
+
+Epoch 15250
+Train  KL  0.713071  LogLKH  -3.352  SumProb  0.497  RecErr(CD1)  0.057  RecErr(Real)  0.057
+
+Epoch 15300
+Train  KL  0.725779  LogLKH  -3.365  SumProb  0.496  RecErr(CD1)  0.044  RecErr(Real)  0.074
+
+Epoch 15350
+Train  KL  0.716936  LogLKH  -3.356  SumProb  0.498  RecErr(CD1)  0.031  RecErr(Real)  0.088
+
+Epoch 15400
+Train  KL  0.710163  LogLKH  -3.349  SumProb  0.501  RecErr(CD1)  0.036  RecErr(Real)  0.046
+
+Epoch 15450
+Train  KL  0.706888  LogLKH  -3.346  SumProb  0.501  RecErr(CD1)  0.052  RecErr(Real)  0.059
+
+Epoch 15500
+Train  KL  0.709223  LogLKH  -3.348  SumProb  0.502  RecErr(CD1)  0.197  RecErr(Real)  0.078
+
+Epoch 15550
+Train  KL  0.712515  LogLKH  -3.352  SumProb  0.502  RecErr(CD1)  0.036  RecErr(Real)  0.238
+
+Epoch 15600
+Train  KL  0.714148  LogLKH  -3.353  SumProb  0.503  RecErr(CD1)  0.168  RecErr(Real)  0.030
+
+Epoch 15650
+Train  KL  0.700109  LogLKH  -3.339  SumProb  0.506  RecErr(CD1)  0.049  RecErr(Real)  0.119
+
+Epoch 15700
+Train  KL  0.702560  LogLKH  -3.342  SumProb  0.506  RecErr(CD1)  0.047  RecErr(Real)  0.092
+
+Epoch 15750
+Train  KL  0.705447  LogLKH  -3.345  SumProb  0.506  RecErr(CD1)  0.089  RecErr(Real)  0.095
+
+Epoch 15800
+Train  KL  0.691953  LogLKH  -3.331  SumProb  0.509  RecErr(CD1)  0.075  RecErr(Real)  0.074
+
+Epoch 15850
+Train  KL  0.697971  LogLKH  -3.337  SumProb  0.509  RecErr(CD1)  0.030  RecErr(Real)  0.122
+
+Epoch 15900
+Train  KL  0.692002  LogLKH  -3.331  SumProb  0.511  RecErr(CD1)  0.208  RecErr(Real)  0.061
+
+Epoch 15950
+Train  KL  0.683497  LogLKH  -3.323  SumProb  0.512  RecErr(CD1)  0.083  RecErr(Real)  0.110
+
+Epoch 16000
+Train  KL  0.693145  LogLKH  -3.332  SumProb  0.511  RecErr(CD1)  0.048  RecErr(Real)  0.053
+
+Epoch 16050
+Train  KL  0.683278  LogLKH  -3.322  SumProb  0.513  RecErr(CD1)  0.067  RecErr(Real)  0.074
+
+Epoch 16100
+Train  KL  0.679928  LogLKH  -3.319  SumProb  0.515  RecErr(CD1)  0.142  RecErr(Real)  0.248
+
+Epoch 16150
+Train  KL  0.674889  LogLKH  -3.314  SumProb  0.516  RecErr(CD1)  0.092  RecErr(Real)  0.242
+
+Epoch 16200
+Train  KL  0.689085  LogLKH  -3.328  SumProb  0.516  RecErr(CD1)  0.101  RecErr(Real)  0.114
+
+Epoch 16250
+Train  KL  0.683024  LogLKH  -3.322  SumProb  0.518  RecErr(CD1)  0.153  RecErr(Real)  0.063
+
+Epoch 16300
+Train  KL  0.673064  LogLKH  -3.312  SumProb  0.519  RecErr(CD1)  0.157  RecErr(Real)  0.051
+
+Epoch 16350
+Train  KL  0.671645  LogLKH  -3.311  SumProb  0.520  RecErr(CD1)  0.032  RecErr(Real)  0.041
+
+Epoch 16400
+Train  KL  0.676000  LogLKH  -3.315  SumProb  0.520  RecErr(CD1)  0.102  RecErr(Real)  0.015
+
+Epoch 16450
+Train  KL  0.663778  LogLKH  -3.303  SumProb  0.523  RecErr(CD1)  0.052  RecErr(Real)  0.118
+
+Epoch 16500
+Train  KL  0.668079  LogLKH  -3.307  SumProb  0.522  RecErr(CD1)  0.054  RecErr(Real)  0.133
+
+Epoch 16550
+Train  KL  0.663327  LogLKH  -3.302  SumProb  0.524  RecErr(CD1)  0.121  RecErr(Real)  0.068
+
+Epoch 16600
+Train  KL  0.661048  LogLKH  -3.300  SumProb  0.525  RecErr(CD1)  0.054  RecErr(Real)  0.046
+
+Epoch 16650
+Train  KL  0.670961  LogLKH  -3.310  SumProb  0.525  RecErr(CD1)  0.041  RecErr(Real)  0.102
+
+Epoch 16700
+Train  KL  0.660928  LogLKH  -3.300  SumProb  0.526  RecErr(CD1)  0.127  RecErr(Real)  0.180
+
+Epoch 16750
+Train  KL  0.669880  LogLKH  -3.309  SumProb  0.527  RecErr(CD1)  0.032  RecErr(Real)  0.122
+
+Epoch 16800
+Train  KL  0.659304  LogLKH  -3.298  SumProb  0.530  RecErr(CD1)  0.017  RecErr(Real)  0.042
+
+Epoch 16850
+Train  KL  0.653848  LogLKH  -3.293  SumProb  0.530  RecErr(CD1)  0.054  RecErr(Real)  0.089
+
+Epoch 16900
+Train  KL  0.660665  LogLKH  -3.300  SumProb  0.530  RecErr(CD1)  0.085  RecErr(Real)  0.125
+
+Epoch 16950
+Train  KL  0.655037  LogLKH  -3.294  SumProb  0.533  RecErr(CD1)  0.021  RecErr(Real)  0.058
+
+Epoch 17000
+Train  KL  0.654236  LogLKH  -3.293  SumProb  0.531  RecErr(CD1)  0.131  RecErr(Real)  0.077
+
+Epoch 17050
+Train  KL  0.646359  LogLKH  -3.285  SumProb  0.535  RecErr(CD1)  0.207  RecErr(Real)  0.092
+
+Epoch 17100
+Train  KL  0.645951  LogLKH  -3.285  SumProb  0.534  RecErr(CD1)  0.076  RecErr(Real)  0.174
+
+Epoch 17150
+Train  KL  0.651872  LogLKH  -3.291  SumProb  0.534  RecErr(CD1)  0.027  RecErr(Real)  0.078
+
+Epoch 17200
+Train  KL  0.635753  LogLKH  -3.275  SumProb  0.538  RecErr(CD1)  0.076  RecErr(Real)  0.049
+
+Epoch 17250
+Train  KL  0.631951  LogLKH  -3.271  SumProb  0.538  RecErr(CD1)  0.159  RecErr(Real)  0.044
+
+Epoch 17300
+Train  KL  0.644447  LogLKH  -3.284  SumProb  0.537  RecErr(CD1)  0.063  RecErr(Real)  0.141
+
+Epoch 17350
+Train  KL  0.635905  LogLKH  -3.275  SumProb  0.539  RecErr(CD1)  0.044  RecErr(Real)  0.067
+
+Epoch 17400
+Train  KL  0.637601  LogLKH  -3.277  SumProb  0.540  RecErr(CD1)  0.082  RecErr(Real)  0.094
+
+Epoch 17450
+Train  KL  0.630769  LogLKH  -3.270  SumProb  0.541  RecErr(CD1)  0.122  RecErr(Real)  0.034
+
+Epoch 17500
+Train  KL  0.627929  LogLKH  -3.267  SumProb  0.542  RecErr(CD1)  0.052  RecErr(Real)  0.163
+
+Epoch 17550
+Train  KL  0.630935  LogLKH  -3.270  SumProb  0.544  RecErr(CD1)  0.039  RecErr(Real)  0.134
+
+Epoch 17600
+Train  KL  0.625639  LogLKH  -3.265  SumProb  0.544  RecErr(CD1)  0.020  RecErr(Real)  0.131
+
+Epoch 17650
+Train  KL  0.621628  LogLKH  -3.261  SumProb  0.546  RecErr(CD1)  0.056  RecErr(Real)  0.073
+
+Epoch 17700
+Train  KL  0.625455  LogLKH  -3.265  SumProb  0.546  RecErr(CD1)  0.143  RecErr(Real)  0.043
+
+Epoch 17750
+Train  KL  0.625595  LogLKH  -3.265  SumProb  0.548  RecErr(CD1)  0.184  RecErr(Real)  0.119
+
+Epoch 17800
+Train  KL  0.620747  LogLKH  -3.260  SumProb  0.549  RecErr(CD1)  0.041  RecErr(Real)  0.095
+
+Epoch 17850
+Train  KL  0.615753  LogLKH  -3.255  SumProb  0.549  RecErr(CD1)  0.044  RecErr(Real)  0.088
+
+Epoch 17900
+Train  KL  0.614942  LogLKH  -3.254  SumProb  0.549  RecErr(CD1)  0.063  RecErr(Real)  0.107
+
+Epoch 17950
+Train  KL  0.612628  LogLKH  -3.252  SumProb  0.550  RecErr(CD1)  0.060  RecErr(Real)  0.184
+
+Epoch 18000
+Train  KL  0.606696  LogLKH  -3.246  SumProb  0.552  RecErr(CD1)  0.017  RecErr(Real)  0.098
+
+Epoch 18050
+Train  KL  0.613735  LogLKH  -3.253  SumProb  0.553  RecErr(CD1)  0.069  RecErr(Real)  0.061
+
+Epoch 18100
+Train  KL  0.609892  LogLKH  -3.249  SumProb  0.553  RecErr(CD1)  0.130  RecErr(Real)  0.151
+
+Epoch 18150
+Train  KL  0.607014  LogLKH  -3.246  SumProb  0.555  RecErr(CD1)  0.033  RecErr(Real)  0.030
+
+Epoch 18200
+Train  KL  0.607702  LogLKH  -3.247  SumProb  0.555  RecErr(CD1)  0.086  RecErr(Real)  0.132
+
+Epoch 18250
+Train  KL  0.601801  LogLKH  -3.241  SumProb  0.557  RecErr(CD1)  0.027  RecErr(Real)  0.148
+
+Epoch 18300
+Train  KL  0.602968  LogLKH  -3.242  SumProb  0.557  RecErr(CD1)  0.021  RecErr(Real)  0.090
+
+Epoch 18350
+Train  KL  0.599459  LogLKH  -3.239  SumProb  0.558  RecErr(CD1)  0.061  RecErr(Real)  0.056
+
+Epoch 18400
+Train  KL  0.604525  LogLKH  -3.244  SumProb  0.559  RecErr(CD1)  0.076  RecErr(Real)  0.026
+
+Epoch 18450
+Train  KL  0.597414  LogLKH  -3.236  SumProb  0.559  RecErr(CD1)  0.070  RecErr(Real)  0.098
+
+Epoch 18500
+Train  KL  0.599615  LogLKH  -3.239  SumProb  0.560  RecErr(CD1)  0.137  RecErr(Real)  0.030
+
+Epoch 18550
+Train  KL  0.593549  LogLKH  -3.233  SumProb  0.562  RecErr(CD1)  0.052  RecErr(Real)  0.039
+
+Epoch 18600
+Train  KL  0.591821  LogLKH  -3.231  SumProb  0.563  RecErr(CD1)  0.076  RecErr(Real)  0.015
+
+Epoch 18650
+Train  KL  0.584522  LogLKH  -3.224  SumProb  0.564  RecErr(CD1)  0.014  RecErr(Real)  0.046
+
+Epoch 18700
+Train  KL  0.586753  LogLKH  -3.226  SumProb  0.564  RecErr(CD1)  0.018  RecErr(Real)  0.082
+
+Epoch 18750
+Train  KL  0.592735  LogLKH  -3.232  SumProb  0.565  RecErr(CD1)  0.065  RecErr(Real)  0.050
+
+Epoch 18800
+Train  KL  0.585243  LogLKH  -3.224  SumProb  0.567  RecErr(CD1)  0.033  RecErr(Real)  0.075
+
+Epoch 18850
+Train  KL  0.574972  LogLKH  -3.214  SumProb  0.570  RecErr(CD1)  0.054  RecErr(Real)  0.045
+
+Epoch 18900
+Train  KL  0.585974  LogLKH  -3.225  SumProb  0.568  RecErr(CD1)  0.049  RecErr(Real)  0.070
+
+Epoch 18950
+Train  KL  0.580744  LogLKH  -3.220  SumProb  0.570  RecErr(CD1)  0.063  RecErr(Real)  0.081
+
+Epoch 19000
+Train  KL  0.573229  LogLKH  -3.212  SumProb  0.571  RecErr(CD1)  0.025  RecErr(Real)  0.132
+
+Epoch 19050
+Train  KL  0.578323  LogLKH  -3.217  SumProb  0.571  RecErr(CD1)  0.048  RecErr(Real)  0.022
+
+Epoch 19100
+Train  KL  0.579522  LogLKH  -3.219  SumProb  0.572  RecErr(CD1)  0.038  RecErr(Real)  0.070
+
+Epoch 19150
+Train  KL  0.571744  LogLKH  -3.211  SumProb  0.573  RecErr(CD1)  0.039  RecErr(Real)  0.080
+
+Epoch 19200
+Train  KL  0.566933  LogLKH  -3.206  SumProb  0.573  RecErr(CD1)  0.060  RecErr(Real)  0.153
+
+Epoch 19250
+Train  KL  0.580735  LogLKH  -3.220  SumProb  0.573  RecErr(CD1)  0.137  RecErr(Real)  0.285
+
+Epoch 19300
+Train  KL  0.565827  LogLKH  -3.205  SumProb  0.576  RecErr(CD1)  0.045  RecErr(Real)  0.085
+
+Epoch 19350
+Train  KL  0.573703  LogLKH  -3.213  SumProb  0.574  RecErr(CD1)  0.048  RecErr(Real)  0.032
+
+Epoch 19400
+Train  KL  0.576867  LogLKH  -3.216  SumProb  0.575  RecErr(CD1)  0.058  RecErr(Real)  0.074
+
+Epoch 19450
+Train  KL  0.573354  LogLKH  -3.212  SumProb  0.576  RecErr(CD1)  0.065  RecErr(Real)  0.022
+
+Epoch 19500
+Train  KL  0.562263  LogLKH  -3.201  SumProb  0.578  RecErr(CD1)  0.082  RecErr(Real)  0.016
+
+Epoch 19550
+Train  KL  0.562871  LogLKH  -3.202  SumProb  0.580  RecErr(CD1)  0.109  RecErr(Real)  0.120
+
+Epoch 19600
+Train  KL  0.567925  LogLKH  -3.207  SumProb  0.579  RecErr(CD1)  0.042  RecErr(Real)  0.263
+
+Epoch 19650
+Train  KL  0.551837  LogLKH  -3.191  SumProb  0.581  RecErr(CD1)  0.062  RecErr(Real)  0.055
+
+Epoch 19700
+Train  KL  0.555871  LogLKH  -3.195  SumProb  0.581  RecErr(CD1)  0.098  RecErr(Real)  0.034
+
+Epoch 19750
+Train  KL  0.549786  LogLKH  -3.189  SumProb  0.583  RecErr(CD1)  0.062  RecErr(Real)  0.154
+
+Epoch 19800
+Train  KL  0.550497  LogLKH  -3.190  SumProb  0.584  RecErr(CD1)  0.091  RecErr(Real)  0.039
+
+Epoch 19850
+Train  KL  0.552056  LogLKH  -3.191  SumProb  0.583  RecErr(CD1)  0.089  RecErr(Real)  0.069
+
+Epoch 19900
+Train  KL  0.552259  LogLKH  -3.191  SumProb  0.584  RecErr(CD1)  0.097  RecErr(Real)  0.098
+
+Epoch 19950
+Train  KL  0.544599  LogLKH  -3.184  SumProb  0.586  RecErr(CD1)  0.101  RecErr(Real)  0.116
+
+Epoch 20000
+Train  KL  0.547868  LogLKH  -3.187  SumProb  0.587  RecErr(CD1)  0.010  RecErr(Real)  0.021
+
+Final values
+Train  KL  0.547868  LogLKH  -3.187  SumProb  0.587  RecErr(CD1)  0.036  RecErr(Real)  0.021
+	Probabilities: 
+	[0, 0, 0, 1, 1, 1, 1, 1, 1]  0.042350   0.071429
+	[1, 1, 1, 0, 0, 0, 0, 0, 0]  0.039043   0.071429
+	[1, 0, 0, 1, 0, 0, 1, 0, 0]  0.030847   0.071429
+	[0, 0, 0, 0, 0, 0, 1, 1, 1]  0.035454   0.071429
+	[1, 1, 1, 1, 1, 1, 0, 0, 0]  0.049014   0.071429
+	[0, 0, 0, 1, 1, 1, 0, 0, 0]  0.040844   0.071429
+	[0, 1, 0, 0, 1, 0, 0, 1, 0]  0.042765   0.071429
+	[0, 1, 1, 0, 1, 1, 0, 1, 1]  0.056469   0.071429
+	[1, 0, 1, 1, 0, 1, 1, 0, 1]  0.045366   0.071429
+	[0, 0, 0, 0, 0, 0, 0, 0, 0]  0.028195   0.071429
+	[1, 1, 1, 0, 0, 0, 1, 1, 1]  0.044770   0.071429
+	[1, 1, 0, 1, 1, 0, 1, 1, 0]  0.040237   0.071429
+	[1, 1, 1, 1, 1, 1, 1, 1, 1]  0.051206   0.071429
+	[0, 0, 1, 0, 0, 1, 0, 0, 1]  0.040704   0.071429
+	LogLKH_Data  -2.639  SumProb_Data:  1.000
+Total elapsed time: 14.528614s

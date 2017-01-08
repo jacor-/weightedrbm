@@ -1,0 +1,67 @@
+import time
+from Datasets import getDataset
+from Machines import Jose_RBM, Jose_RBM_2
+from pylab import *
+from dataset_generation import load_data
+NUM_EPOCHS = 5000
+PROBLEM = "BarsAndStripes"
+
+k_min = 1
+k_max = 1
+
+
+HIDDEN = 3
+
+def execute(RBM_object, machine_type, k):
+    dataset,_ = load_data('bars_stripes', {'num_rows':3, 'num_cols':3}, 1., 0)
+    VISIBLES = len(dataset[0][0])
+
+    t1 = time.time()
+
+    machine = RBM_object(HIDDEN,VISIBLES, dataset, k = k, type = machine_type)
+    learning_algorithm = machine.trainStep    
+        
+    iters = 0
+    monit_likelihood = []
+    while iters < NUM_EPOCHS:        
+        iters += 1
+        learning_algorithm(0.001, 0)
+        monit_likelihood.append(machine.getLikelihood())
+    print "TEST_FINISHED in %.1f seconds" % (time.time()-t1)
+    return monit_likelihood
+
+
+
+equal_weights = [execute(Jose_RBM.RBM, machine_type = "equal_weights", k = k) for k in range(k_min,k_max+1)]
+exact = execute(Jose_RBM.RBM, machine_type = "exact", k = 1)
+model_weights = [execute(Jose_RBM.RBM, machine_type = "model_weights", k = k) for k in range(k_min,k_max+1)]
+paranoia_weights = [execute(Jose_RBM.RBM, machine_type = "paranoia_weights", k = k) for k in range(k_min,k_max+1)]
+
+figure()
+for i in range(k_max-k_min+1):
+    plot(equal_weights[i], '-', label = "CD-%d Equal weights" % (i+1))
+plot(exact, label = "Exact")
+for i in range(k_max-k_min+1):
+    plot(model_weights[i], '--', label = "CD-%d Model weights" % (i+1))
+for i in range(k_max-k_min+1):
+    plot(paranoia_weights[i], '-.', label = "CD-%d Paranoia weights" % (i+1))
+legend()
+
+'''
+equal_weights2 = [execute(Jose_RBM_2.RBM, machine_type = "equal_weights", k = k) for k in range(k_min,k_max+1)]
+exact2 = execute(Jose_RBM_2.RBM, machine_type = "exact", k = 1)
+model_weights2 = [execute(Jose_RBM_2.RBM, machine_type = "model_weights", k = k) for k in range(k_min,k_max+1)]
+paranoia_weights2 = [execute(Jose_RBM_2.RBM, machine_type = "paranoia_weights", k = k) for k in range(k_min,k_max+1)]
+
+figure()
+for i in range(k_max-k_min+1):
+    plot(equal_weights2[i], '-', label = "CD-%d Equal weights" % (i+1))
+plot(exact2, label = "Exact")
+for i in range(k_max-k_min+1):
+    plot(model_weights2[i], '--', label = "CD-%d Model weights" % (i+1))
+for i in range(k_max-k_min+1):
+    plot(paranoia_weights2[i], '-.', label = "CD-%d Paranoia weights" % (i+1))
+legend()
+show()
+
+'''

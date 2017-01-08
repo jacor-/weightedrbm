@@ -1,0 +1,83 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/jose/Documents/RBM_Project/.metadata/.plugins/org.eclipse.core.resources/.projects/NewRBM/com.python.pydev.analysis/v2_indexcache
+Datasets.bitSwap|1418595332000|/home/jose/Documents/RBM_Project/NewRBM/Datasets/bitSwap.py
+Datasets.barsAndStripesUtils|1428650114000|/home/jose/Documents/RBM_Project/NewRBM/Datasets/barsAndStripesUtils.py
+Machines.RBM|1431606848000|/home/jose/Documents/RBM_Project/NewRBM/Machines/RBM.py
+Utils.CommonUtils|1418492830000|/home/jose/Documents/RBM_Project/NewRBM/Utils/CommonUtils.py
+Datasets.AleixDatasetGeneration|1431287219000|/home/jose/Documents/RBM_Project/NewRBM/Datasets/AleixDatasetGeneration.py
+Machines.__init__|1418425566000|/home/jose/Documents/RBM_Project/NewRBM/Machines/__init__.py
+Datasets.parity|1418595684000|/home/jose/Documents/RBM_Project/NewRBM/Datasets/parity.py
+Datasets.__init__|1427736820000|/home/jose/Documents/RBM_Project/NewRBM/Datasets/__init__.py
+Utils.__init__|1418425566000|/home/jose/Documents/RBM_Project/NewRBM/Utils/__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+11
+9=RBM.__init__
+5=Datasets.bitSwap
+10=RBM._prepareProbs
+2=Datasets.barsAndStripesUtils
+7=Machines.RBM
+3=Utils.CommonUtils
+8=RBM
+1=Datasets.AleixDatasetGeneration
+11=RBM._prepareCDK
+4=Datasets.parity
+6=Datasets.__init__
+-- END DICTIONARY
+-- START TREE 1
+29
+__i|0|
+_pr|0|
+b_h|0|
+b_v|0|
+dat|1|dataset!11@
+dis|1|display!10@
+exe|0|
+fro|2|fromNumberToShape!18@fromShapeToNumber!26@
+gen|8|generate_labeled_shifter!10@generate_parity!10@generatePossibleRows!18@generatePossibleCorrectStates!18@generate_bars_stripes!10@generatePossibleColumns!18@generatePossibleCorrectStates!34@generatePossibleCorrectStates!42@
+get|1|getDataset!50@
+hid|0|
+img|2|img_test!11@img_train!11@
+lbl|2|lbl_train!11@lbl_test!11@
+lea|0|
+lik|0|
+loa|2|load_data!10@load_mnist!10@
+mom|0|
+num|1|num_vis!11@
+par|1|params!11@
+plo|1|plotaProbsAndData!26@
+pro|0|
+rbm|1|RBM!57@
+sig|0|
+tes|6|test_probs!11@test_parity!11@test_mnist!11@test_labeled_shifter!11@test_bars_stripes!11@test_set!11@
+tra|3|train_percent!11@train_set!11@train_probs!11@
+typ|1|type_rbm!11@
+vis|0|
+w_p|0|
+w_s|0|
+-- END TREE
+-- START TREE 2
+21
+__i|1|__init__!8&58@
+_co|1|_computeCross!8&58@
+_in|1|_initializeParameters!8&58@
+_pr|2|_prepareProbs!8&58@_prepareCDK!8&58@
+_re|1|_returnNCDSteps!8&58@
+b_h|1|b_h!9&59@
+b_v|1|b_v!9&59@
+com|5|compute_likelihood!10&59@compute_KL!10&59@computeProbs!9&59@compute_visible_states_probabilities!10&59@compute_loglikelihood!10&59@
+dat|3|data_indexs!9&59@data!9&59@data_probs!9&59@
+f_t|1|f_train_CD!11&59@
+get|3|getProbabilities!8&58@getLogLikelihood!8&58@getLikelihood!8&58@
+hid|1|HIDDEN!9&59@
+lea|1|learning_rate!9&59@
+mea|2|meanfile_hidden!11&59@meanfile_visible!11&59@
+mom|1|momentum_rate!9&59@
+pro|1|probability_tensor!10&59@
+sam|2|sample_hidden!11&59@sample_visible!11&59@
+tra|1|trainStep!8&58@
+typ|1|type!9&59@
+vis|2|VISIBLE!9&59@visible_states!9&59@
+w_p|1|W_params!9&59@
+-- END TREE

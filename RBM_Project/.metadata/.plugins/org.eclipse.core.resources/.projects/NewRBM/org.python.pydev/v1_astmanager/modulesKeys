@@ -1,0 +1,11 @@
+MODULES_MANAGER_V2
+Datasets.AleixDatasetGeneration|/home/jose/Documents/RBM_Project/NewRBM/Datasets/AleixDatasetGeneration.py
+Datasets.__init__|/home/jose/Documents/RBM_Project/NewRBM/Datasets/__init__.py
+Datasets.barsAndStripesUtils|/home/jose/Documents/RBM_Project/NewRBM/Datasets/barsAndStripesUtils.py
+Datasets.bitSwap|/home/jose/Documents/RBM_Project/NewRBM/Datasets/bitSwap.py
+Datasets.parity|/home/jose/Documents/RBM_Project/NewRBM/Datasets/parity.py
+Machines.RBM|/home/jose/Documents/RBM_Project/NewRBM/Machines/RBM.py
+Machines.__init__|/home/jose/Documents/RBM_Project/NewRBM/Machines/__init__.py
+Utils.CommonUtils|/home/jose/Documents/RBM_Project/NewRBM/Utils/CommonUtils.py
+Utils.__init__|/home/jose/Documents/RBM_Project/NewRBM/Utils/__init__.py
+example|/home/jose/Documents/RBM_Project/NewRBM/example.py
